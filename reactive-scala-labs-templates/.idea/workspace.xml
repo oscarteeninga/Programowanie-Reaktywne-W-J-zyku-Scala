@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jBRoI7KiMwagN5Awb473oSatl6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="ScalaTest.CheckoutTest">
+    <configuration name="CartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.CartActorTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.CheckoutTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypedCartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.TypedCartActorTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypedCartActorTest.should change state after adding first item to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.TypedCartActorTest" />
+      <option name="testName" value="should change state after adding first item to the cart" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypedCheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.TypedCheckoutTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.CheckoutTest" />
+        <item itemvalue="ScalaTest.TypedCheckoutTest" />
+        <item itemvalue="ScalaTest.TypedCartActorTest" />
+        <item itemvalue="ScalaTest.CartActorTest" />
+        <item itemvalue="ScalaTest.TypedCartActorTest.should change state after adding first item to the cart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="" />
+      <created>1603275671873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603275671873</updated>
+      <workItem from="1603275673356" duration="15209000" />
+      <workItem from="1603291099090" duration="724000" />
+      <workItem from="1603291828071" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603291466938">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603291466938" />
+    <state x="416" y="337" key="#xdebugger.evaluate" timestamp="1603290117037">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="416" y="337" key="#xdebugger.evaluate/0.23.2048.1208@0.23.2048.1208" timestamp="1603290117037" />
+    <state x="0" y="203" key="CommitChangelistDialog2" timestamp="1603290877110">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="0" y="203" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603290877110" />
+    <state width="1264" height="340" key="GridCell.Tab.0.bottom" timestamp="1603291823320">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="340" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823320" />
+    <state width="1264" height="340" key="GridCell.Tab.0.center" timestamp="1603291823319">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="340" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823319" />
+    <state width="1264" height="340" key="GridCell.Tab.0.left" timestamp="1603291823319">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="340" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823319" />
+    <state width="1264" height="340" key="GridCell.Tab.0.right" timestamp="1603291823319">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="340" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823319" />
+    <state width="1264" height="418" key="GridCell.Tab.1.bottom" timestamp="1603290927898">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="418" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927898" />
+    <state width="1264" height="418" key="GridCell.Tab.1.center" timestamp="1603290927898">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="418" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927898" />
+    <state width="1264" height="418" key="GridCell.Tab.1.left" timestamp="1603290927897">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="418" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927897" />
+    <state width="1264" height="418" key="GridCell.Tab.1.right" timestamp="1603290927898">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="1264" height="418" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927898" />
+    <state x="689" y="296" width="670" height="676" key="search.everywhere.popup" timestamp="1603290787979">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="689" y="296" width="670" height="676" key="search.everywhere.popup/0.23.2048.1208@0.23.2048.1208" timestamp="1603290787979" />
+  </component>
+</project>

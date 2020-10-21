@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2f6072d-3947-44ac-be55-873c61228adb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jBP6HDorkqxtzXzSb5SZkY5LOw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TypedToggleApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="reactive2.TypedToggleApp" />
+      <module name="reactive-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reactive2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TypedToggleApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2f6072d-3947-44ac-be55-873c61228adb" name="Default Changelist" comment="" />
+      <created>1603274334569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603274334569</updated>
+      <workItem from="1603274342064" duration="849000" />
+      <workItem from="1603277743908" duration="46000" />
+      <workItem from="1603283723606" duration="1975000" />
+      <workItem from="1603290808426" duration="34000" />
+      <workItem from="1603291219415" duration="444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2006" height="340" key="GridCell.Tab.0.bottom" timestamp="1603275657712">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="2006" height="340" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657712" />
+    <state width="2006" height="340" key="GridCell.Tab.0.center" timestamp="1603275657711">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="2006" height="340" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657711" />
+    <state width="2006" height="340" key="GridCell.Tab.0.left" timestamp="1603275657711">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="2006" height="340" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657711" />
+    <state width="2006" height="340" key="GridCell.Tab.0.right" timestamp="1603275657712">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state width="2006" height="340" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657712" />
+  </component>
+</project>
