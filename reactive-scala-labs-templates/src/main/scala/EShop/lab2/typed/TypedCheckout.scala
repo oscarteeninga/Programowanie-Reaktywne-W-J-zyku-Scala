@@ -26,33 +26,38 @@ class TypedCheckout {
     (context, _) => selectingDelivery(context.scheduleOnce(checkoutTimerDuration, context.self, ExpireCheckout))
   )
 
-  def selectingDelivery(timer: Cancellable): Behavior[Command] = Behaviors.receive(
-    (context: ActorContext[Command], msg) => msg match {
-      case SelectDeliveryMethod(_) => selectingPaymentMethod(timer)
-      case CancelCheckout =>
-        context.self ! ConfirmCheckoutCancelled
-        cancelled
-      case ExpireCheckout =>
-        context.self ! ConfirmCheckoutCancelled
-        cancelled
-      case _ => Behaviors.same
-  } )
+  def selectingDelivery(timer: Cancellable): Behavior[Command] =
+    Behaviors.receive(
+      (context: ActorContext[Command], msg) =>
+        msg match {
+          case SelectDeliveryMethod(_) => selectingPaymentMethod(timer)
+          case CancelCheckout =>
+            context.self ! ConfirmCheckoutCancelled
+            cancelled
+          case ExpireCheckout =>
+            context.self ! ConfirmCheckoutCancelled
+            cancelled
+          case _ => Behaviors.same
+      }
+    )
 
   def selectingPaymentMethod(timer: Cancellable): Behavior[Command] = Behaviors.receive(
-    (context, msg) => msg match {
-      case SelectPayment(_) => processingPayment(context.scheduleOnce(paymentTimerDuration, context.self, ExpirePayment))
-      case CancelCheckout =>
-        context.self ! ConfirmCheckoutCancelled
-        cancelled
-      case ExpireCheckout =>
-        context.self ! ConfirmCheckoutCancelled
-        cancelled
-      case _ => Behaviors.same
+    (context, msg) =>
+      msg match {
+        case SelectPayment(_) =>
+          processingPayment(context.scheduleOnce(paymentTimerDuration, context.self, ExpirePayment))
+        case CancelCheckout =>
+          context.self ! ConfirmCheckoutCancelled
+          cancelled
+        case ExpireCheckout =>
+          context.self ! ConfirmCheckoutCancelled
+          cancelled
+        case _ => Behaviors.same
     }
   )
 
-  def processingPayment(timer: Cancellable): Behavior[Command] = Behaviors.receive {
-    (context, msg) => msg match {
+  def processingPayment(timer: Cancellable): Behavior[Command] = Behaviors.receive { (context, msg) =>
+    msg match {
       case ConfirmPaymentReceived =>
         context.self ! ConfirmCheckoutClosed
         closed

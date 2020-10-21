@@ -1,6 +1,13 @@
 package EShop.lab2
 
-import EShop.lab2.simple.{CancelCheckout, Checkout, ConfirmPaymentReceived, SelectDeliveryMethod, SelectPayment, StartTestCheckout}
+import EShop.lab2.simple.{
+  CancelCheckout,
+  Checkout,
+  ConfirmPaymentReceived,
+  SelectDeliveryMethod,
+  SelectPayment,
+  StartTestCheckout
+}
 import akka.actor.{ActorRef, ActorSystem, Cancellable, Props}
 import akka.testkit.{ImplicitSender, TestKit}
 import org.scalatest.BeforeAndAfterAll

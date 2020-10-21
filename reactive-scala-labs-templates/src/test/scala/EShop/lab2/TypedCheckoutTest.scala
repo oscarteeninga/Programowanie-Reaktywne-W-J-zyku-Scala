@@ -1,6 +1,13 @@
 package EShop.lab2
 
-import EShop.lab2.simple.{CancelCheckout, Command, ConfirmPaymentReceived, SelectDeliveryMethod, SelectPayment, StartCheckout}
+import EShop.lab2.simple.{
+  CancelCheckout,
+  Command,
+  ConfirmPaymentReceived,
+  SelectDeliveryMethod,
+  SelectPayment,
+  StartCheckout
+}
 import EShop.lab2.typed.TypedCheckout
 import akka.actor.testkit.typed.scaladsl.{ActorTestKit, ScalaTestWithActorTestKit}
 import akka.actor.typed.{ActorRef, Behavior}

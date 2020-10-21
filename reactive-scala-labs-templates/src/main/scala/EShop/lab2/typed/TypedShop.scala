@@ -8,7 +8,7 @@ import akka.actor.typed.scaladsl.Behaviors
 import scala.concurrent.duration.FiniteDuration
 
 object TypedShop extends App {
-  val cart = new TypedCartActor()
+  val cart      = new TypedCartActor()
   val checkout1 = new TypedCheckout
 
   Behaviors
