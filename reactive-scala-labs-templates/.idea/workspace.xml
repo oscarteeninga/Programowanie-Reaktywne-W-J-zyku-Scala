@@ -20,31 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/CartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/CartActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Command.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Shop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Shop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCommand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCommand.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedShop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedShop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CartActorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CartActorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CheckoutTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCheckoutTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1$$anonfun$cancelled$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1$$anonfun$cancelled$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2$$anonfun$cancelled$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2$$anonfun$cancelled$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3$$anonfun$cancelled$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3$$anonfun$cancelled$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$3.class" afterDir="false" />
@@ -245,6 +226,14 @@
       <workItem from="1603292061961" duration="2446000" />
       <workItem from="1603299022604" duration="10822000" />
     </task>
+    <task id="LOCAL-00001" summary="hotfix">
+      <created>1603311899170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603311899170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +255,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603309662555">
@@ -280,26 +271,26 @@
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="416" y="337" key="#xdebugger.evaluate/0.23.2048.1208@0.23.2048.1208" timestamp="1603308172156" />
-    <state x="0" y="203" key="CommitChangelistDialog2" timestamp="1603290877110">
+    <state x="0" y="203" key="CommitChangelistDialog2" timestamp="1603311898969">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="0" y="203" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603290877110" />
-    <state width="2006" height="352" key="GridCell.Tab.0.bottom" timestamp="1603311834806">
+    <state x="0" y="203" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603311898969" />
+    <state width="2006" height="352" key="GridCell.Tab.0.bottom" timestamp="1603312358585">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603311834806" />
-    <state width="2006" height="352" key="GridCell.Tab.0.center" timestamp="1603311834805">
+    <state width="2006" height="352" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603312358585" />
+    <state width="2006" height="352" key="GridCell.Tab.0.center" timestamp="1603312358585">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603311834805" />
-    <state width="2006" height="352" key="GridCell.Tab.0.left" timestamp="1603311834804">
+    <state width="2006" height="352" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603312358585" />
+    <state width="2006" height="352" key="GridCell.Tab.0.left" timestamp="1603312358584">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603311834804" />
-    <state width="2006" height="352" key="GridCell.Tab.0.right" timestamp="1603311834805">
+    <state width="2006" height="352" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603312358584" />
+    <state width="2006" height="352" key="GridCell.Tab.0.right" timestamp="1603312358585">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603311834805" />
+    <state width="2006" height="352" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603312358585" />
     <state width="1264" height="418" key="GridCell.Tab.1.bottom" timestamp="1603308257193">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>

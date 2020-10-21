@@ -1,6 +1,5 @@
 package EShop.lab2.simple
 
-import EShop.lab2._
 import akka.actor.ActorSystem
 
 object Shop extends App {

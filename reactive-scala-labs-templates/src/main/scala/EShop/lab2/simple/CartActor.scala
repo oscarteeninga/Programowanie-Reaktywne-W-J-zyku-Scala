@@ -1,7 +1,7 @@
 package EShop.lab2.simple
 
 import EShop.lab2._
-import akka.actor.{Actor, ActorRef, Cancellable, Props}
+import akka.actor.{Actor, Cancellable, Props}
 import akka.event.Logging
 
 import scala.concurrent.ExecutionContext.Implicits.global
