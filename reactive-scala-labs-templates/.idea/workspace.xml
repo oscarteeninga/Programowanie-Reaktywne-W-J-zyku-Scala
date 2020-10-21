@@ -19,7 +19,193 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="" />
+    <list default="true" id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Command.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Shop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCommand.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedShop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/reactive-lab1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/reactive-lab2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/reactive-scala-labs-templates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/EShop-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/EShop-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/EShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/EShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$a917cf63d9c10f372ae0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$a917cf63d9c10f372ae0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$a917cf63d9c10f372ae0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0fcb4eed66e19f5a9942$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0fcb4eed66e19f5a9942.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0fcb4eed66e19f5a9942.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$526f6104dfccdf18ec64$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$526f6104dfccdf18ec64.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$526f6104dfccdf18ec64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$55ee33d8d7ed415aa456$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$55ee33d8d7ed415aa456.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$55ee33d8d7ed415aa456.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fcad19e373f723e23e2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fcad19e373f723e23e2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fcad19e373f723e23e2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$91164394316670c5d971$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$91164394316670c5d971.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$91164394316670c5d971.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aad424742ebe3ed44c30$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aad424742ebe3ed44c30.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$aad424742ebe3ed44c30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b059585b6fd80a2b9184$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b059585b6fd80a2b9184.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b059585b6fd80a2b9184.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/CartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/CartActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/Checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Checkout.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/TypedCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/TypedCheckout.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CartActorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CartActorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CheckoutTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCartActorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCartActorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCheckoutTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$$anonfun$empty$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$$anonfun$inCheckout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$$anonfun$nonEmpty$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$AddItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$AddItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$CheckoutStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$CheckoutStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$ConfirmCheckoutCancelled$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$ConfirmCheckoutClosed$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$ExpireCart$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$RemoveItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$RemoveItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor$StartCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/CartActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$cancelled$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$cancelled$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$closed$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$closed$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$processingPayment$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$processingPayment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$selectingDelivery$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$selectingDelivery$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$selectingPaymentMethod$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$$anonfun$selectingPaymentMethod$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$CancelCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$CheckOutClosed$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$ConfirmPaymentReceived$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$ExpireCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$ExpirePayment$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$PaymentStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$PaymentStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$ProcessingPaymentStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$ProcessingPaymentStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$SelectDeliveryMethod$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$SelectDeliveryMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$SelectPayment$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$SelectPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$SelectingDeliveryStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$SelectingDeliveryStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$StartCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout$Uninitialized$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Checkout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$AddItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$AddItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$CheckoutStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$CheckoutStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$ConfirmCheckoutCancelled$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$ConfirmCheckoutClosed$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$ExpireCart$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$RemoveItem$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$RemoveItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor$StartCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCartActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$CancelCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$CheckOutClosed$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$ConfirmPaymentReceived$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$ExpireCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$ExpirePayment$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$PaymentStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$PaymentStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$ProcessingPaymentStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$ProcessingPaymentStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$SelectDeliveryMethod$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$SelectDeliveryMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$SelectPayment$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$SelectPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$SelectingDeliveryStarted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$SelectingDeliveryStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$StartCheckout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout$Uninitialized$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/TypedCheckout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$ 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$ 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$ 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1$$anonfun$cancelled$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2$$anonfun$cancelled$2 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4 2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +223,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -55,32 +242,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="ScalaTest.CheckoutTest">
-    <configuration name="CartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+  <component name="RunManager" selected="ScalaTest.TypedCheckoutTest">
+    <configuration name="Shop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="EShop.lab2.simple.Shop" />
       <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="shortenClasspath" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab2.CartActorTest" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EShop.lab2.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="CheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
@@ -105,6 +285,29 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckoutTest.should be in cancelled state after expire checkout timeout in selectingDelivery state" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.CheckoutTest" />
+      <option name="testName" value="should be in cancelled state after expire checkout timeout in selectingDelivery state" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypedCartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
@@ -119,29 +322,6 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="EShop.lab2.TypedCartActorTest" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypedCartActorTest.should change state after adding first item to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Test name" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="shortenClasspath" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab2.TypedCartActorTest" />
-      <option name="testName" value="should change state after adding first item to the cart" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -195,11 +375,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.CheckoutTest" />
         <item itemvalue="ScalaTest.TypedCheckoutTest" />
         <item itemvalue="ScalaTest.TypedCartActorTest" />
-        <item itemvalue="ScalaTest.CartActorTest" />
-        <item itemvalue="ScalaTest.TypedCartActorTest.should change state after adding first item to the cart" />
+        <item itemvalue="Application.Shop" />
+        <item itemvalue="ScalaTest.CheckoutTest" />
+        <item itemvalue="ScalaTest.CheckoutTest.should be in cancelled state after expire checkout timeout in selectingDelivery state" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +396,8 @@
       <workItem from="1603275673356" duration="15209000" />
       <workItem from="1603291099090" duration="724000" />
       <workItem from="1603291828071" duration="77000" />
+      <workItem from="1603292061961" duration="2446000" />
+      <workItem from="1603299022604" duration="10822000" />
     </task>
     <servers />
   </component>
@@ -234,54 +416,78 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603291466938">
+    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603309662555">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603291466938" />
-    <state x="416" y="337" key="#xdebugger.evaluate" timestamp="1603290117037">
+    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603309662555" />
+    <state x="466" y="327" key="#com.intellij.ide.util.MemberChooser" timestamp="1603305370087">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="416" y="337" key="#xdebugger.evaluate/0.23.2048.1208@0.23.2048.1208" timestamp="1603290117037" />
+    <state x="466" y="327" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1208@0.23.2048.1208" timestamp="1603305370087" />
+    <state x="416" y="337" key="#xdebugger.evaluate" timestamp="1603308172156">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="416" y="337" key="#xdebugger.evaluate/0.23.2048.1208@0.23.2048.1208" timestamp="1603308172156" />
     <state x="0" y="203" key="CommitChangelistDialog2" timestamp="1603290877110">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="0" y="203" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603290877110" />
-    <state width="1264" height="340" key="GridCell.Tab.0.bottom" timestamp="1603291823320">
+    <state width="1264" height="352" key="GridCell.Tab.0.bottom" timestamp="1603309595922">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="340" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823320" />
-    <state width="1264" height="340" key="GridCell.Tab.0.center" timestamp="1603291823319">
+    <state width="1264" height="352" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603309595922" />
+    <state width="1264" height="352" key="GridCell.Tab.0.center" timestamp="1603309595921">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="340" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823319" />
-    <state width="1264" height="340" key="GridCell.Tab.0.left" timestamp="1603291823319">
+    <state width="1264" height="352" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603309595921" />
+    <state width="1264" height="352" key="GridCell.Tab.0.left" timestamp="1603309595921">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="340" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823319" />
-    <state width="1264" height="340" key="GridCell.Tab.0.right" timestamp="1603291823319">
+    <state width="1264" height="352" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603309595921" />
+    <state width="1264" height="352" key="GridCell.Tab.0.right" timestamp="1603309595922">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="340" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603291823319" />
-    <state width="1264" height="418" key="GridCell.Tab.1.bottom" timestamp="1603290927898">
+    <state width="1264" height="352" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603309595922" />
+    <state width="1264" height="418" key="GridCell.Tab.1.bottom" timestamp="1603308257193">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927898" />
-    <state width="1264" height="418" key="GridCell.Tab.1.center" timestamp="1603290927898">
+    <state width="1264" height="418" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603308257193" />
+    <state width="1264" height="418" key="GridCell.Tab.1.center" timestamp="1603308257193">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927898" />
-    <state width="1264" height="418" key="GridCell.Tab.1.left" timestamp="1603290927897">
+    <state width="1264" height="418" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603308257193" />
+    <state width="1264" height="418" key="GridCell.Tab.1.left" timestamp="1603308257193">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927897" />
-    <state width="1264" height="418" key="GridCell.Tab.1.right" timestamp="1603290927898">
+    <state width="1264" height="418" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603308257193" />
+    <state width="1264" height="418" key="GridCell.Tab.1.right" timestamp="1603308257193">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603290927898" />
+    <state width="1264" height="418" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603308257193" />
+    <state x="154" y="266" key="SettingsEditor" timestamp="1603292271964">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="154" y="266" key="SettingsEditor/0.23.2048.1208@0.23.2048.1208" timestamp="1603292271964" />
     <state x="689" y="296" width="670" height="676" key="search.everywhere.popup" timestamp="1603290787979">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="689" y="296" width="670" height="676" key="search.everywhere.popup/0.23.2048.1208@0.23.2048.1208" timestamp="1603290787979" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedShop.scala</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

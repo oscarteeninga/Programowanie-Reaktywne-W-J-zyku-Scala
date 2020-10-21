@@ -1,7 +1,7 @@
 package EShop.lab2
 
-import EShop.lab2.Checkout.{CancelCheckout, ConfirmPaymentReceived, SelectDeliveryMethod, SelectPayment, StartCheckout}
-import akka.actor.{ActorSystem, Cancellable, Props}
+import EShop.lab2.simple.{CancelCheckout, Checkout, ConfirmPaymentReceived, SelectDeliveryMethod, SelectPayment, StartTestCheckout}
+import akka.actor.{ActorRef, ActorSystem, Cancellable, Props}
 import akka.testkit.{ImplicitSender, TestKit}
 import org.scalatest.BeforeAndAfterAll
 import org.scalatest.flatspec.AnyFlatSpecLike
@@ -24,14 +24,14 @@ class CheckoutTest
   it should "be in selectingDelivery state after checkout start" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
   }
 
   it should "be in cancelled state after cancel message received in selectingDelivery State" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! CancelCheckout
     expectMsg(cancelledMsg)
@@ -46,7 +46,7 @@ class CheckoutTest
       }
     }))
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     Thread.sleep(2000)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(cancelledMsg)
@@ -55,7 +55,7 @@ class CheckoutTest
   it should "be in selectingPayment state after delivery method selected" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -64,7 +64,7 @@ class CheckoutTest
   it should "be in cancelled state after cancel message received in selectingPayment State" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -81,7 +81,7 @@ class CheckoutTest
       }
     }))
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     Thread.sleep(2000)
     checkoutActor ! SelectPayment(paymentMethod)
@@ -91,7 +91,7 @@ class CheckoutTest
   it should "be in processingPayment state after payment selected" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -102,7 +102,7 @@ class CheckoutTest
   it should "be in cancelled state after cancel message received in processingPayment State" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -121,7 +121,7 @@ class CheckoutTest
       }
     }))
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     checkoutActor ! SelectPayment(paymentMethod)
     Thread.sleep(2000)
@@ -132,7 +132,7 @@ class CheckoutTest
   it should "be in closed state after payment completed" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -145,7 +145,7 @@ class CheckoutTest
   it should "not change state after cancel msg in completed state" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartCheckout
+    checkoutActor ! StartTestCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -153,7 +153,7 @@ class CheckoutTest
     expectMsg(processingPaymentMsg)
     checkoutActor ! ConfirmPaymentReceived
     expectMsg(closedMsg)
-    checkoutActor ! CancelCheckout
+    checkoutActor.!(CancelCheckout)(ActorRef.noSender)
     expectNoMessage()
   }
 
