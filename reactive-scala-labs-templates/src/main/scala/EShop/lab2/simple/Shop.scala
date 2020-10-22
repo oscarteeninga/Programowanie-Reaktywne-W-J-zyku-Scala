@@ -14,7 +14,8 @@ object Shop extends App {
   cart ! AddItem("3")
   cart ! AddItem("4")
   Thread.sleep(10)
-  cart ! StartWithCheckout(checkout1)
+  cart ! StartCheckout
+  checkout1 ! CheckoutStarted(cart)
   Thread.sleep(10)
   checkout1 ! SelectDeliveryMethod("DPD")
   checkout1 ! SelectPayment("BLIK")
@@ -24,7 +25,8 @@ object Shop extends App {
   var checkout2 = system.actorOf(Checkout.props, "checkout2")
   cart ! AddItem(1232)
   Thread.sleep(10)
-  cart ! StartWithCheckout(checkout2)
+  cart ! StartCheckout
+  checkout2 ! CheckoutStarted(cart)
   Thread.sleep(10)
   checkout2 ! SelectDeliveryMethod("DPD")
   checkout2 ! SelectPayment("BLIK")

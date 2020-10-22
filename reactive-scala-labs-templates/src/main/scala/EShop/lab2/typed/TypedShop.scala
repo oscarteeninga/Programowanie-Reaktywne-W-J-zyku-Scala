@@ -1,16 +1,25 @@
 package EShop.lab2.typed
 
-import EShop.lab2.Cart
-import akka.actor.Cancellable
-import akka.actor.typed.Behavior
-import akka.actor.typed.scaladsl.Behaviors
-
-import scala.concurrent.duration.FiniteDuration
+import akka.actor.typed.{ActorSystem, Behavior}
 
 object TypedShop extends App {
-  val cart      = new TypedCartActor()
-  val checkout1 = new TypedCheckout
 
-  Behaviors
+  val cart      = ActorSystem(TypedCartActor().start, "typedCart")
+  val checkout1 = ActorSystem(TypedCheckout().start, "typedCheckout1")
+  val checkout2 = ActorSystem(TypedCheckout().start, "typedCheckout2")
 
+  cart ! AddItem(10)
+  cart ! AddItem(10)
+  cart ! AddItem(10)
+  cart ! AddItem(10)
+  cart ! StartCheckout
+  checkout1 ! CheckoutStarted(cart)
+  checkout1 ! CancelCheckout
+  Thread.sleep(100)
+  cart ! AddItem(20)
+  cart ! StartCheckout
+  checkout2 ! CheckoutStarted(cart)
+  checkout2 ! SelectDeliveryMethod("DPD")
+  checkout2 ! SelectPayment("BLIK")
+  checkout2 ! ConfirmPaymentReceived
 }

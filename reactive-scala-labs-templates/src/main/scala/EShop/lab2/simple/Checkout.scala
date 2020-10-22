@@ -1,6 +1,5 @@
 package EShop.lab2.simple
 
-import EShop.lab2._
 import akka.actor.{Actor, ActorRef, Cancellable, Props}
 import akka.event.Logging
 
@@ -15,9 +14,6 @@ object Checkout {
   case class SelectingDeliveryStarted(timer: Cancellable) extends Data
   case class ProcessingPaymentStarted(timer: Cancellable) extends Data
 
-  sealed trait Event
-  case class PaymentStarted(payment: ActorRef) extends Event
-
   def props = Props(new Checkout)
 }
 
@@ -29,14 +25,14 @@ class Checkout extends Actor {
   val checkoutTimerDuration: FiniteDuration = 1 seconds
   val paymentTimerDuration: FiniteDuration  = 1 seconds
 
-  var cart: ActorRef = ActorRef.noSender
+  private var cart = ActorRef.noSender
 
   def receive: Receive = {
-    case StartCheckout =>
-      cart = sender
+    case CheckoutStarted(c) =>
+      cart = c
       log.debug("[Init -> SelectingDelivery] Checkout started")
       context become selectingDelivery(scheduler.scheduleOnce(checkoutTimerDuration, self, ExpireCheckout))
-    case StartTestCheckout =>
+    case StartCheckout =>
       log.debug("[Init -> SelectingDelivery] Checkout started")
       context become selectingDelivery(scheduler.scheduleOnce(checkoutTimerDuration, self, ExpireCheckout))
     case msg: Any =>

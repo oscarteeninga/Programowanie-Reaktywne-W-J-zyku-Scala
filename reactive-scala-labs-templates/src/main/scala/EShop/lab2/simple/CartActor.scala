@@ -47,11 +47,7 @@ class CartActor extends Actor {
       }
     case StartCheckout =>
       log.debug("[NonEmpty -> IsCheckout] Checkout started")
-      context.actorOf(Checkout.props) ! StartCheckout
-      context become inCheckout(cart)
-    case StartWithCheckout(checkout) =>
-      log.debug("[NonEmpty -> IsCheckout] Checkout started")
-      checkout ! StartCheckout
+      context.actorOf(Checkout.props) ! CheckoutStarted(self)
       context become inCheckout(cart)
     case msg: Any => log.warning("[NonEmpty] Unexpected message " + msg)
   }

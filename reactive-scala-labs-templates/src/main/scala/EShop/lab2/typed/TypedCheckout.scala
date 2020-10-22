@@ -1,40 +1,46 @@
 package EShop.lab2.typed
 
 import akka.actor.Cancellable
-import akka.actor.typed.Behavior
-import akka.actor.typed.scaladsl.{ActorContext, Behaviors}
+import akka.actor.typed.{ActorRef, Behavior}
+import akka.actor.typed.scaladsl.Behaviors
 
 import scala.concurrent.duration._
 import scala.language.postfixOps
 
-object TypedCheckout {
-
-  sealed trait Data
-  case object Uninitialized                               extends Data
-  case class SelectingDeliveryStarted(timer: Cancellable) extends Data
-  case class ProcessingPaymentStarted(timer: Cancellable) extends Data
-
-}
-
-class TypedCheckout {
+case class TypedCheckout() {
 
   val checkoutTimerDuration: FiniteDuration = 1 seconds
   val paymentTimerDuration: FiniteDuration  = 1 seconds
 
+  var cart: Option[ActorRef[TypedCommand]] = None
+
   def start: Behavior[TypedCommand] = Behaviors.receive(
-    (context, _) => selectingDelivery(context.scheduleOnce(checkoutTimerDuration, context.self, ExpireCheckout))
+    (context, msg) =>
+      msg match {
+        case CheckoutStarted(c) =>
+          println("[Init -> SelectDelivery] Checkout started")
+          cart = Some(c)
+          selectingDelivery(context.scheduleOnce(checkoutTimerDuration, context.self, ExpireCheckout))
+        case _ =>
+          println("[Init -> SelectDelivery] Checkout started")
+          selectingDelivery(context.scheduleOnce(checkoutTimerDuration, context.self, ExpireCheckout))
+    }
   )
 
   def selectingDelivery(timer: Cancellable): Behavior[TypedCommand] =
     Behaviors.receive(
-      (context: ActorContext[TypedCommand], msg) =>
+      (context, msg) =>
         msg match {
-          case SelectDeliveryMethod(_) => selectingPaymentMethod(timer)
+          case SelectDeliveryMethod(_) =>
+            println("[SelectingDelivery -> SelectingPaymentMethod] Delivery method selected")
+            selectingPaymentMethod(timer)
           case CancelCheckout =>
-            context.self ! ConfirmCheckoutCancelled
+            println("[SelectingDelivery -> Cancelled] Checkout cancelled")
+            cart.foreach(_ ! ConfirmCheckoutCancelled)
             cancelled
           case ExpireCheckout =>
-            context.self ! ConfirmCheckoutCancelled
+            println("[SelectingDelivery -> Cancelled] Checkout expired")
+            cart.foreach(_ ! ConfirmCheckoutCancelled)
             cancelled
           case _ => Behaviors.same
       }
@@ -44,12 +50,15 @@ class TypedCheckout {
     (context, msg) =>
       msg match {
         case SelectPayment(_) =>
+          println("[SelectingPaymentMethod -> ProcessingPayment] Payment selected")
           processingPayment(context.scheduleOnce(paymentTimerDuration, context.self, ExpirePayment))
         case CancelCheckout =>
-          context.self ! ConfirmCheckoutCancelled
+          println("[SelectingPaymentMethod -> CancelCheckout] Checkout cancelled")
+          cart.foreach(_ ! ConfirmCheckoutCancelled)
           cancelled
         case ExpireCheckout =>
-          context.self ! ConfirmCheckoutCancelled
+          println("[SelectingPaymentMethod -> CancelCheckout] Checkout expired")
+          cart.foreach(_ ! ConfirmCheckoutCancelled)
           cancelled
         case _ => Behaviors.same
     }
@@ -58,13 +67,16 @@ class TypedCheckout {
   def processingPayment(timer: Cancellable): Behavior[TypedCommand] = Behaviors.receive { (context, msg) =>
     msg match {
       case ConfirmPaymentReceived =>
-        context.self ! ConfirmCheckoutClosed
+        println("[ProcessingPayment -> Closed] Payment confirmed")
+        cart.foreach(_ ! ConfirmCheckoutClosed)
         closed
       case CancelCheckout =>
-        context.self ! ConfirmCheckoutCancelled
+        println("[ProcessingPayment -> Cancelled] Checkout cancelled")
+        cart.foreach(_ ! ConfirmCheckoutCancelled)
         cancelled
       case ExpirePayment =>
-        context.self ! ConfirmCheckoutCancelled
+        println("[ProcessingPayment -> Cancelled] Payment expired")
+        cart.foreach(_ ! ConfirmCheckoutCancelled)
         cancelled
       case _ => Behaviors.same
     }

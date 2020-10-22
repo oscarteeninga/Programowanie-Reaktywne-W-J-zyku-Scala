@@ -1,7 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f6072d-3947-44ac-be55-873c61228adb" name="Default Changelist" comment="" />
+    <list default="true" id="a2f6072d-3947-44ac-be55-873c61228adb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Event.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedEvent.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/reactive-lab2-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/reactive-lab2-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/reactive-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/reactive-lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0eca45506360a2b1a4bd$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0eca45506360a2b1a4bd.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0eca45506360a2b1a4bd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7264f16a5121c7257a68$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7264f16a5121c7257a68.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7264f16a5121c7257a68.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9beb50627b70f3702f98$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9beb50627b70f3702f98.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9beb50627b70f3702f98.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d49841df0ac3a62ad5a8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d49841df0ac3a62ad5a8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d49841df0ac3a62ad5a8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f212dac9d69c4dcdee9c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f212dac9d69c4dcdee9c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f212dac9d69c4dcdee9c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f3ab38c1879451be9554$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f3ab38c1879451be9554.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f3ab38c1879451be9554.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/CartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/CartActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Checkout.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Command.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Shop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/simple/Shop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedCommand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedCommand.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedShop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/main/scala/EShop/lab2/typed/TypedShop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/test/scala/EShop/lab2/CheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-scala-labs-templates/src/test/scala/EShop/lab2/CheckoutTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/classes/EShop/lab2/Cart$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/classes/EShop/lab2/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/classes/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CartActorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1$$anonfun$cancelled$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2$$anonfun$cancelled$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3$$anonfun$cancelled$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/test-classes/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-scala-labs-templates/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +158,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -34,7 +176,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TypedBankApp">
+    <configuration name="TypedBankApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="reactive2.TypedBankApp" />
+      <module name="reactive-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reactive2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypedToggleApp" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="reactive2.TypedToggleApp" />
       <module name="reactive-lab2" />
@@ -50,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypedBankApp" />
         <item itemvalue="Application.TypedToggleApp" />
       </list>
     </recent_temporary>
@@ -69,6 +225,7 @@
       <workItem from="1603283723606" duration="1975000" />
       <workItem from="1603290808426" duration="34000" />
       <workItem from="1603291219415" duration="444000" />
+      <workItem from="1603394801189" duration="2448000" />
     </task>
     <servers />
   </component>
@@ -76,21 +233,21 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2006" height="340" key="GridCell.Tab.0.bottom" timestamp="1603275657712">
+    <state width="881" height="340" key="GridCell.Tab.0.bottom" timestamp="1603402966650">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="340" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657712" />
-    <state width="2006" height="340" key="GridCell.Tab.0.center" timestamp="1603275657711">
+    <state width="881" height="340" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603402966650" />
+    <state width="881" height="340" key="GridCell.Tab.0.center" timestamp="1603402966650">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="340" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657711" />
-    <state width="2006" height="340" key="GridCell.Tab.0.left" timestamp="1603275657711">
+    <state width="881" height="340" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603402966650" />
+    <state width="881" height="340" key="GridCell.Tab.0.left" timestamp="1603402966650">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="340" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657711" />
-    <state width="2006" height="340" key="GridCell.Tab.0.right" timestamp="1603275657712">
+    <state width="881" height="340" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603402966650" />
+    <state width="881" height="340" key="GridCell.Tab.0.right" timestamp="1603402966650">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="340" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603275657712" />
+    <state width="881" height="340" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603402966650" />
   </component>
 </project>

@@ -6,7 +6,7 @@ import EShop.lab2.simple.{
   ConfirmPaymentReceived,
   SelectDeliveryMethod,
   SelectPayment,
-  StartTestCheckout
+  StartCheckout
 }
 import akka.actor.{ActorRef, ActorSystem, Cancellable, Props}
 import akka.testkit.{ImplicitSender, TestKit}
@@ -31,14 +31,14 @@ class CheckoutTest
   it should "be in selectingDelivery state after checkout start" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
   }
 
   it should "be in cancelled state after cancel message received in selectingDelivery State" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! CancelCheckout
     expectMsg(cancelledMsg)
@@ -53,7 +53,7 @@ class CheckoutTest
       }
     }))
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     Thread.sleep(2000)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(cancelledMsg)
@@ -62,7 +62,7 @@ class CheckoutTest
   it should "be in selectingPayment state after delivery method selected" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -71,7 +71,7 @@ class CheckoutTest
   it should "be in cancelled state after cancel message received in selectingPayment State" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -88,7 +88,7 @@ class CheckoutTest
       }
     }))
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     Thread.sleep(2000)
     checkoutActor ! SelectPayment(paymentMethod)
@@ -98,7 +98,7 @@ class CheckoutTest
   it should "be in processingPayment state after payment selected" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -109,7 +109,7 @@ class CheckoutTest
   it should "be in cancelled state after cancel message received in processingPayment State" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -128,7 +128,7 @@ class CheckoutTest
       }
     }))
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     checkoutActor ! SelectPayment(paymentMethod)
     Thread.sleep(2000)
@@ -139,7 +139,7 @@ class CheckoutTest
   it should "be in closed state after payment completed" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
@@ -152,7 +152,7 @@ class CheckoutTest
   it should "not change state after cancel msg in completed state" in {
     val checkoutActor = checkoutActorWithResponseOnStateChange(system)
 
-    checkoutActor ! StartTestCheckout
+    checkoutActor ! StartCheckout
     expectMsg(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     expectMsg(selectingPaymentMethodMsg)
