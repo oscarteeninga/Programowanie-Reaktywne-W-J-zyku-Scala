@@ -1,6 +1,14 @@
 package EShop.lab2
 
-import EShop.lab2.CartActor.{AddItem, ConfirmCheckoutCancelled, ConfirmCheckoutClosed, RemoveItem, StartCheckout}
+import EShop.lab2.simple.{
+  AddItem,
+  CartActor,
+  Checkout,
+  ConfirmCheckoutCancelled,
+  ConfirmCheckoutClosed,
+  RemoveItem,
+  StartCheckout
+}
 import akka.actor.{ActorRef, ActorSystem, Cancellable, Props}
 import akka.testkit.{ImplicitSender, TestKit}
 import org.scalatest.BeforeAndAfterAll

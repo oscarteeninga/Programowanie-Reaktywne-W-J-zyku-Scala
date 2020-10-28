@@ -16,152 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:lab-3" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Event.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedEvent.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/.idea/modules/reactive-lab2-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/.idea/modules/reactive-lab2-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/.idea/modules/reactive-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/.idea/modules/reactive-lab2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$0eca45506360a2b1a4bd$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$0eca45506360a2b1a4bd.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$0eca45506360a2b1a4bd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$7264f16a5121c7257a68$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$7264f16a5121c7257a68.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$7264f16a5121c7257a68.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$9beb50627b70f3702f98$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$9beb50627b70f3702f98.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$9beb50627b70f3702f98.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$d49841df0ac3a62ad5a8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$d49841df0ac3a62ad5a8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$d49841df0ac3a62ad5a8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$f212dac9d69c4dcdee9c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$f212dac9d69c4dcdee9c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$f212dac9d69c4dcdee9c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$f3ab38c1879451be9554$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$f3ab38c1879451be9554.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/config-classes/$f3ab38c1879451be9554.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-lab2/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-lab2/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/managedSourcePaths/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/copy-resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/CartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/CartActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Checkout.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Command.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Shop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/simple/Shop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCartActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCheckout.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCommand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedCommand.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedShop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/typed/TypedShop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/CheckoutTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Cart$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/EShop/lab2/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CartActorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1$$anonfun$cancelled$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2$$anonfun$cancelled$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3$$anonfun$cancelled$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/CheckoutTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCartActorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/EShop/lab2/TypedCheckoutTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/application.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
-    </list>
+    <list default="true" id="7b2dcab4-d82f-44b1-b82f-3e235cfd094f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,21 +39,19 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Scala Object" />
-        <option value="Package Object" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1jBRoI7KiMwagN5Awb473oSatl6" />
+  <component name="ProjectId" id="1jTMIU03jQCXAsNgF241ver0sUT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -198,25 +60,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/project/target/config-classes" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/project/target/config-classes" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.TypedShop">
-    <configuration name="Shop" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="EShop.lab2.simple.Shop" />
+  <component name="RunManager" selected="Application.TypedShopApp">
+    <configuration name="ShopApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="EShop.lab2.ShopApp" />
       <module name="EShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EShop.lab2.simple.*" />
+          <option name="PATTERN" value="EShop.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypedShop" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="EShop.lab2.typed.TypedShop" />
+    <configuration name="TypedShopApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="EShop.lab2.TypedShopApp" />
       <module name="EShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EShop.lab2.typed.*" />
+          <option name="PATTERN" value="EShop.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="CartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
@@ -250,29 +104,7 @@
       <option name="shortenClasspath" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab2.CheckoutTest" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypedCartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="shortenClasspath" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab2.TypedCartActorTest" />
+      <option name="testClassPath" value="EShop.lab2.CartActorTest" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -295,6 +127,29 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="EShop.lab2.TypedCheckoutTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypedCheckoutTest.should be in cancelled state after expire checkout timeout in selectingPayment state" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.TypedCheckoutTest" />
+      <option name="testName" value="should be in cancelled state after expire checkout timeout in selectingPayment state" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -326,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TypedShop" />
-        <item itemvalue="ScalaTest.TypedCheckoutTest" />
-        <item itemvalue="ScalaTest.TypedCartActorTest" />
-        <item itemvalue="ScalaTest.CheckoutTest" />
-        <item itemvalue="Application.Shop" />
+        <item itemvalue="ScalaTest.TypedCheckoutTest.should be in cancelled state after expire checkout timeout in selectingPayment state" />
+        <item itemvalue="ScalaTest.CartActorTest" />
+        <item itemvalue="Application.TypedShopApp" />
+        <item itemvalue="Application.ShopApp" />
+        <item itemvalue="Application.TypedShopApp" />
       </list>
     </recent_temporary>
   </component>
@@ -339,36 +194,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0ce57798-d0df-43be-82ed-9601d3900427" name="Default Changelist" comment="" />
-      <created>1603275671873</created>
+      <changelist id="7b2dcab4-d82f-44b1-b82f-3e235cfd094f" name="Default Changelist" comment="" />
+      <created>1603823548392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603275671873</updated>
-      <workItem from="1603275673356" duration="15209000" />
-      <workItem from="1603291099090" duration="724000" />
-      <workItem from="1603291828071" duration="77000" />
-      <workItem from="1603292061961" duration="2446000" />
-      <workItem from="1603299022604" duration="10822000" />
-      <workItem from="1603315908281" duration="545000" />
-      <workItem from="1603361012413" duration="14000" />
-      <workItem from="1603393318184" duration="9623000" />
-      <workItem from="1603402969799" duration="844000" />
+      <updated>1603823548392</updated>
+      <workItem from="1603823555967" duration="2835000" />
+      <workItem from="1603826412881" duration="1109000" />
+      <workItem from="1603841575185" duration="4767000" />
     </task>
-    <task id="LOCAL-00001" summary="hotfix">
-      <created>1603311899170</created>
+    <task id="LOCAL-00001" summary="complete lab 2">
+      <created>1603844738884</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1603311899170</updated>
+      <updated>1603844738884</updated>
     </task>
-    <task id="LOCAL-00002" summary="hotfix2">
-      <created>1603312626516</created>
+    <task id="LOCAL-00002" summary="Merge branch 'master' into lab-3&#10;&#10;# Conflicts:&#10;#&#9;src/main/scala/EShop/lab2/CartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/test/scala/EShop/lab2/CartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/CheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCheckoutTest.scala">
+      <created>1603845241530</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1603312626516</updated>
+      <updated>1603845241530</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hotfix">
+      <created>1603845402740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603845402740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'master' into lab-3&#10;&#10;# Conflicts:&#10;#&#9;src/main/scala/EShop/lab2/CartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/test/scala/EShop/lab2/CartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/CheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCheckoutTest.scala">
+      <created>1603845654878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603845654878</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hotfix after merge">
+      <created>1603846295862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603846295862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,85 +249,91 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lab-3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
+    <MESSAGE value="complete lab 2" />
     <MESSAGE value="hotfix" />
-    <MESSAGE value="hotfix2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix2" />
+    <MESSAGE value="Merge branch 'master' into lab-3&#10;&#10;# Conflicts:&#10;#&#9;src/main/scala/EShop/lab2/CartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/test/scala/EShop/lab2/CartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/CheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCheckoutTest.scala" />
+    <MESSAGE value="hotfix after merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix after merge" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603403782474">
+    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603841916368">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="391" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603403782474" />
-    <state x="666" y="436" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603403306415">
+    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603841916368" />
+    <state x="187" y="163" key="CommitChangelistDialog2" timestamp="1603846295722">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="666" y="436" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2048.1208@0.23.2048.1208" timestamp="1603403306415" />
-    <state x="466" y="327" key="#com.intellij.ide.util.MemberChooser" timestamp="1603305370087">
+    <state x="187" y="163" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603846295722" />
+    <state x="100" y="123" width="1600" height="1008" key="DiffContextDialog" timestamp="1603846073392">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="466" y="327" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1208@0.23.2048.1208" timestamp="1603305370087" />
-    <state x="416" y="337" key="#xdebugger.evaluate" timestamp="1603308172156">
+    <state x="100" y="123" width="1600" height="1008" key="DiffContextDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603846073392" />
+    <state width="1758" height="322" key="GridCell.Tab.0.bottom" timestamp="1603846352021">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="416" y="337" key="#xdebugger.evaluate/0.23.2048.1208@0.23.2048.1208" timestamp="1603308172156" />
-    <state x="0" y="203" key="CommitChangelistDialog2" timestamp="1603312626301">
+    <state width="1758" height="322" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352021" />
+    <state width="1758" height="322" key="GridCell.Tab.0.center" timestamp="1603846352021">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="0" y="203" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603312626301" />
-    <state width="2006" height="352" key="GridCell.Tab.0.bottom" timestamp="1603403789469">
+    <state width="1758" height="322" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352021" />
+    <state width="1758" height="322" key="GridCell.Tab.0.left" timestamp="1603846352021">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603403789469" />
-    <state width="2006" height="352" key="GridCell.Tab.0.center" timestamp="1603403789469">
+    <state width="1758" height="322" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352021" />
+    <state width="1758" height="322" key="GridCell.Tab.0.right" timestamp="1603846352021">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603403789469" />
-    <state width="2006" height="352" key="GridCell.Tab.0.left" timestamp="1603403789469">
+    <state width="1758" height="322" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352021" />
+    <state width="1758" height="418" key="GridCell.Tab.1.bottom" timestamp="1603846352018">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603403789469" />
-    <state width="2006" height="352" key="GridCell.Tab.0.right" timestamp="1603403789469">
+    <state width="1758" height="418" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352018" />
+    <state width="1758" height="418" key="GridCell.Tab.1.center" timestamp="1603846352018">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="2006" height="352" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603403789469" />
-    <state width="1264" height="418" key="GridCell.Tab.1.bottom" timestamp="1603312637058">
+    <state width="1758" height="418" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352018" />
+    <state width="1758" height="418" key="GridCell.Tab.1.left" timestamp="1603846352017">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603312637058" />
-    <state width="1264" height="418" key="GridCell.Tab.1.center" timestamp="1603312637058">
+    <state width="1758" height="418" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352017" />
+    <state width="1758" height="418" key="GridCell.Tab.1.right" timestamp="1603846352018">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603312637058" />
-    <state width="1264" height="418" key="GridCell.Tab.1.left" timestamp="1603312637058">
+    <state width="1758" height="418" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603846352018" />
+    <state x="81" y="133" key="MergeDialog" timestamp="1603845626456">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603312637058" />
-    <state width="1264" height="418" key="GridCell.Tab.1.right" timestamp="1603312637058">
+    <state x="81" y="133" key="MergeDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603845626456" />
+    <state x="538" y="395" key="MultipleFileMergeDialog" timestamp="1603845628721">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state width="1264" height="418" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603312637058" />
-    <state x="154" y="266" key="SettingsEditor" timestamp="1603292271964">
+    <state x="538" y="395" key="MultipleFileMergeDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603845628721" />
+    <state x="352" y="336" key="RollbackChangesDialog" timestamp="1603844935524">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="154" y="266" key="SettingsEditor/0.23.2048.1208@0.23.2048.1208" timestamp="1603292271964" />
-    <state x="1081" y="382" width="598" height="490" key="find.popup" timestamp="1603394021257">
+    <state x="352" y="336" key="RollbackChangesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603844935524" />
+    <state x="328" y="331" key="VCS.ChangeListViewerDialog" timestamp="1603846006918">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="1081" y="382" width="598" height="490" key="find.popup/0.23.2048.1208@0.23.2048.1208" timestamp="1603394021257" />
-    <state x="689" y="296" width="670" height="676" key="search.everywhere.popup" timestamp="1603290787979">
-      <screen x="0" y="23" width="2048" height="1208" />
-    </state>
-    <state x="689" y="296" width="670" height="676" key="search.everywhere.popup/0.23.2048.1208@0.23.2048.1208" timestamp="1603290787979" />
+    <state x="328" y="331" key="VCS.ChangeListViewerDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603846006918" />
   </component>
 </project>
