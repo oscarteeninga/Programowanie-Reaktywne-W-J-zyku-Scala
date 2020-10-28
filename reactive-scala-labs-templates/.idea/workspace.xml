@@ -20,7 +20,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:lab-3" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -42,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lab-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -202,6 +202,7 @@
       <workItem from="1603823555967" duration="2835000" />
       <workItem from="1603826412881" duration="1109000" />
       <workItem from="1603841575185" duration="4767000" />
+      <workItem from="1603846383011" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="complete lab 2">
       <created>1603844738884</created>
@@ -255,7 +256,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lab-3" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -266,6 +267,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete lab 2" />
