@@ -1,5 +1,7 @@
 package EShop.lab2
 
+import EShop.lab3.OrderManager
+import EShop.lab3.OrderManager.ConfirmCheckoutStarted
 import akka.actor.{Actor, ActorRef, Cancellable, Props}
 import akka.event.{Logging, LoggingReceive}
 
@@ -21,7 +23,7 @@ object CartActor {
   sealed trait Event
   case class CheckoutStarted(checkoutRef: ActorRef) extends Event
 
-  def props() = Props(new CartActor())
+  def props = Props(new CartActor())
 }
 
 class CartActor extends Actor {
@@ -31,6 +33,9 @@ class CartActor extends Actor {
   private val log                       = Logging(context.system, this)
   val cartTimerDuration: FiniteDuration = 5 seconds
 
+  val checkout: ActorRef = context.actorOf(Checkout.props(self))
+  val orderManager       = context.parent
+
   private def scheduleTimer: Cancellable = context.system.scheduler.scheduleOnce(cartTimerDuration, self, ExpireCart)
 
   def receive: Receive = empty
@@ -39,6 +44,9 @@ class CartActor extends Actor {
     case AddItem(item) =>
       log.debug("[Empty -> NonEmpty] Item add")
       context become nonEmpty(Cart.empty.addItem(item), scheduleTimer)
+    case GetItems =>
+      sender ! Seq.empty
+      context become empty
     case msg: Any =>
       log.warning("[Empty] Unexpected message " + msg)
   }
@@ -59,8 +67,13 @@ class CartActor extends Actor {
         log.debug("[NonEmpty] Item removed")
         context become nonEmpty(cart.removeItem(item), timer)
       }
+    case GetItems =>
+      sender ! cart.items
+      context become nonEmpty(cart, timer)
     case StartCheckout =>
       timer.cancel()
+      checkout ! Checkout.StartCheckout
+      orderManager ! OrderManager.ConfirmCheckoutStarted(checkout)
       log.debug("[NonEmpty -> IsCheckout] Checkout started")
       context become inCheckout(cart)
     case msg: Any => log.warning("[NonEmpty] Unexpected message " + msg)
@@ -73,6 +86,9 @@ class CartActor extends Actor {
     case ConfirmCheckoutClosed =>
       log.debug("[IsCheckout -> Empty] Checkout closed")
       context become empty
+    case GetItems =>
+      sender ! cart.items
+      context become inCheckout(cart)
     case msg: Any => log.warning("[IsCheckout] Unexpected message " + msg)
   }
 }

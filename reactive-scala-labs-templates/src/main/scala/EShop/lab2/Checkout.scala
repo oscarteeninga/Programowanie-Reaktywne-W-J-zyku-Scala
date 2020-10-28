@@ -1,6 +1,7 @@
 package EShop.lab2
 
 import EShop.lab2.Checkout._
+import EShop.lab3.{OrderManager, Payment}
 import akka.actor.{Actor, ActorRef, Cancellable, Props}
 import akka.event.{Logging, LoggingReceive}
 
@@ -66,6 +67,8 @@ class Checkout(
   def selectingPaymentMethod(timer: Cancellable): Receive = {
     case SelectPayment(payment) =>
       timer.cancel()
+      val paymentActor = context.actorOf(Payment.props(payment, sender, self))
+      sender ! OrderManager.ConfirmPaymentStarted(paymentActor)
       log.debug("[SelectPayment -> ProcessingPayment] Payment selected" + payment)
       context become processingPayment(scheduler.scheduleOnce(paymentTimerDuration, self, ExpirePayment))
     case CancelCheckout =>
@@ -73,6 +76,7 @@ class Checkout(
       log.debug("[SelectPayment -> Cancelled] Checkout cancelled")
       context become cancelled
     case ExpireCheckout =>
+      cartActor ! CartActor.ConfirmCheckoutCancelled
       log.debug("[SelectPayment -> Cancelled] Checkout timeout")
       context become cancelled
     case msg: Any => log.warning("[SelectPayment] Unexpected message " + msg)
@@ -82,13 +86,16 @@ class Checkout(
     case ConfirmPaymentReceived =>
       timer.cancel()
       log.debug("[ProcessingPayment -> Closed] Payment confirmed")
+      cartActor ! CartActor.ConfirmCheckoutClosed
       context become closed
     case CancelCheckout =>
       timer.cancel()
       log.debug("[ProcessingPayment -> Cancelled] Payment cancelled")
+      cartActor ! CartActor.ConfirmCheckoutCancelled
       context become cancelled
     case ExpirePayment =>
       log.debug("[ProcessingPayment -> Cancelled] Payment timeout")
+      cartActor ! CartActor.ConfirmCheckoutCancelled
       context become cancelled
     case msg: Any => log.warning("[ProcessingPayment] Unexpected message " + msg)
   }
