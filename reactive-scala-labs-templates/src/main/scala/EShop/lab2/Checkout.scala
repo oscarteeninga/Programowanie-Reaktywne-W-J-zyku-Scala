@@ -3,7 +3,7 @@ package EShop.lab2
 import EShop.lab2.Checkout._
 import EShop.lab3.{OrderManager, Payment}
 import akka.actor.{Actor, ActorRef, Cancellable, Props}
-import akka.event.{Logging, LoggingReceive}
+import akka.event.Logging
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
@@ -73,6 +73,7 @@ class Checkout(
       context become processingPayment(scheduler.scheduleOnce(paymentTimerDuration, self, ExpirePayment))
     case CancelCheckout =>
       timer.cancel()
+      cartActor ! CartActor.ConfirmCheckoutCancelled
       log.debug("[SelectPayment -> Cancelled] Checkout cancelled")
       context become cancelled
     case ExpireCheckout =>

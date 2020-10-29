@@ -77,8 +77,7 @@ class TypedCartActorTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike 
     probe.expectMessage(nonEmptyMsg)
     probe.expectMessage(1)
 
-    cart ! StartCheckout
-//    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
+    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
 
     probe.expectMessage(inCheckoutMsg)
     probe.expectMessage(1)
@@ -96,8 +95,7 @@ class TypedCartActorTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike 
     probe.expectMessage(nonEmptyMsg)
     probe.expectMessage(1)
 
-    cart ! StartCheckout
-//    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
+    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
 
     probe.expectMessage(inCheckoutMsg)
     probe.expectMessage(1)
@@ -120,8 +118,7 @@ class TypedCartActorTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike 
     probe.expectMessage(nonEmptyMsg)
     probe.expectMessage(1)
 
-    cart ! StartCheckout
-//    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
+    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
 
     probe.expectMessage(inCheckoutMsg)
     probe.expectMessage(1)
@@ -144,8 +141,7 @@ class TypedCartActorTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike 
     probe.expectMessage(nonEmptyMsg)
     probe.expectMessage(1)
 
-    cart ! StartCheckout
-//    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
+    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
 
     probe.expectMessage(inCheckoutMsg)
     probe.expectMessage(1)
@@ -162,8 +158,7 @@ class TypedCartActorTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike 
     probe.expectMessage(emptyMsg)
     probe.expectMessage(0)
 
-    cart ! StartCheckout
-//    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
+    cart ! StartCheckout(testKit.createTestProbe[TypedOrderManager.Command]().ref)
 
     probe.expectNoMessage()
   }

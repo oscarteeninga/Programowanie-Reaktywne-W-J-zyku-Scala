@@ -19,19 +19,20 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/lab-3" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2dcab4-d82f-44b1-b82f-3e235cfd094f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/CartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/CartActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab3/OrderManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab3/OrderManager.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab3/OrderManagerApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab3/OrderManagerApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab3/Payment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab3/Payment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab3/TypedCartTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab3/TypedCartTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab3/TypedCheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab3/TypedCheckoutTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/Checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/Checkout.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/TypedCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/TypedCartActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab2/TypedCheckout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab2/TypedCheckout.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab3/TypedOrderManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab3/TypedOrderManager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCartActorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCartActorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCheckoutTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab2/TypedCheckoutTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab3/TypedOrderManagerIntegrationTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab3/TypedOrderManagerIntegrationTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="ScalaTest.OrderManagerIntegrationTest.should supervise whole order process">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="EShop.lab2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="ScalaTest.TypedOrderManagerIntegrationTest.should supervise whole order process">
     <configuration name="CartTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
@@ -99,28 +105,6 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="EShop.lab3.CartTest" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="shortenClasspath" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab2.CheckoutTest" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -152,28 +136,6 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderManagerIntegrationTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="shortenClasspath" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab3.OrderManagerIntegrationTest" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderManagerIntegrationTest.should supervise whole order process" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
@@ -188,6 +150,51 @@
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
       <option name="testClassPath" value="EShop.lab3.OrderManagerIntegrationTest" />
+      <option name="testName" value="should supervise whole order process" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypedCheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab2.TypedCheckoutTest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypedOrderManagerIntegrationTest.should supervise whole order process" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="EShop.lab3.TypedOrderManagerIntegrationTest" />
       <option name="testName" value="should supervise whole order process" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
@@ -220,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.TypedOrderManagerIntegrationTest.should supervise whole order process" />
+        <item itemvalue="ScalaTest.TypedCheckoutTest" />
         <item itemvalue="ScalaTest.OrderManagerIntegrationTest.should supervise whole order process" />
         <item itemvalue="ScalaTest.CheckoutTest.should Send close confirmation to cart" />
         <item itemvalue="ScalaTest.CartTest" />
-        <item itemvalue="ScalaTest.OrderManagerIntegrationTest" />
-        <item itemvalue="ScalaTest.CheckoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +250,8 @@
       <workItem from="1603841575185" duration="4767000" />
       <workItem from="1603846383011" duration="352000" />
       <workItem from="1603876935813" duration="20233000" />
+      <workItem from="1603921691881" duration="6000" />
+      <workItem from="1603924686905" duration="4868000" />
     </task>
     <task id="LOCAL-00001" summary="complete lab 2">
       <created>1603844738884</created>
@@ -286,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603897855157</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="complete lab 3 v2">
+      <created>1603928419900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603928419900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +319,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/lab-3" />
                       </list>
                     </value>
                   </entry>
@@ -322,62 +338,71 @@
     <MESSAGE value="Merge branch 'master' into lab-3&#10;&#10;# Conflicts:&#10;#&#9;src/main/scala/EShop/lab2/CartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/test/scala/EShop/lab2/CartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/CheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab2/TypedCheckoutTest.scala" />
     <MESSAGE value="hotfix after merge" />
     <MESSAGE value="complete lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete lab 3" />
+    <MESSAGE value="complete lab 3 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete lab 3 v2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603888092238">
+    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603926161937">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603888092238" />
-    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603884468072" />
-    <state x="187" y="163" key="CommitChangelistDialog2" timestamp="1603897854989">
+    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603926161937" />
+    <state x="400" y="515" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603927197222">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
-    <state x="187" y="163" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603897854989" />
+    <state x="400" y="515" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.2048.1208@0.23.2048.1208" timestamp="1603927197222" />
+    <state x="187" y="163" key="CommitChangelistDialog2" timestamp="1603928419591">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="187" y="163" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1603928419591" />
     <state x="100" y="123" width="1600" height="1008" key="DiffContextDialog" timestamp="1603846073392">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="100" y="123" width="1600" height="1008" key="DiffContextDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603846073392" />
-    <state width="1890" height="355" key="GridCell.Tab.0.bottom" timestamp="1603898078911">
+    <state x="0" y="23" key="FileDocumentManager.FileCacheConflict" timestamp="1603927127268">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="0" y="23" key="FileDocumentManager.FileCacheConflict/0.23.2048.1208@0.23.2048.1208" timestamp="1603927127268" />
+    <state width="2006" height="355" key="GridCell.Tab.0.bottom" timestamp="1603929384610">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.0.bottom/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890104556" />
-    <state width="1890" height="355" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078911" />
-    <state width="1890" height="355" key="GridCell.Tab.0.center" timestamp="1603898078910">
+    <state width="2006" height="355" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384610" />
+    <state width="2006" height="355" key="GridCell.Tab.0.center" timestamp="1603929384610">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.0.center/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890104553" />
-    <state width="1890" height="355" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078910" />
-    <state width="1890" height="355" key="GridCell.Tab.0.left" timestamp="1603898078910">
+    <state width="2006" height="355" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384610" />
+    <state width="2006" height="355" key="GridCell.Tab.0.left" timestamp="1603929384609">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.0.left/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890104552" />
-    <state width="1890" height="355" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078910" />
-    <state width="1890" height="355" key="GridCell.Tab.0.right" timestamp="1603898078911">
+    <state width="2006" height="355" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384609" />
+    <state width="2006" height="355" key="GridCell.Tab.0.right" timestamp="1603929384610">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.0.right/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890104555" />
-    <state width="1890" height="355" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078911" />
-    <state width="1890" height="355" key="GridCell.Tab.1.bottom" timestamp="1603898078912">
+    <state width="2006" height="355" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384610" />
+    <state width="2006" height="355" key="GridCell.Tab.1.bottom" timestamp="1603929384612">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.1.bottom/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890105866" />
-    <state width="1890" height="355" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078912" />
-    <state width="1890" height="355" key="GridCell.Tab.1.center" timestamp="1603898078912">
+    <state width="2006" height="355" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384612" />
+    <state width="2006" height="355" key="GridCell.Tab.1.center" timestamp="1603929384611">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.1.center/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890105865" />
-    <state width="1890" height="355" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078912" />
-    <state width="1890" height="355" key="GridCell.Tab.1.left" timestamp="1603898078911">
+    <state width="2006" height="355" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384611" />
+    <state width="2006" height="355" key="GridCell.Tab.1.left" timestamp="1603929384611">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.1.left/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890105864" />
-    <state width="1890" height="355" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078911" />
-    <state width="1890" height="355" key="GridCell.Tab.1.right" timestamp="1603898078912">
+    <state width="2006" height="355" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384611" />
+    <state width="2006" height="355" key="GridCell.Tab.1.right" timestamp="1603929384612">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="1187" height="355" key="GridCell.Tab.1.right/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603890105866" />
-    <state width="1890" height="355" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603898078912" />
+    <state width="2006" height="355" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1603929384612" />
     <state x="81" y="133" key="MergeDialog" timestamp="1603845626456">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>

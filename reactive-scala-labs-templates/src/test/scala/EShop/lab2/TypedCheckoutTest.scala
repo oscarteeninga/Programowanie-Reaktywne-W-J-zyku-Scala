@@ -108,8 +108,7 @@ class TypedCheckoutTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike w
     checkoutActor ! StartCheckout
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     Thread.sleep(2000)
-    checkoutActor ! SelectPayment(paymentMethod)
-//    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
+    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
     probe.expectMessage(cancelledMsg)
   }
 
@@ -124,8 +123,7 @@ class TypedCheckoutTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike w
     probe.expectMessage(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     probe.expectMessage(selectingPaymentMethodMsg)
-    checkoutActor ! SelectPayment(paymentMethod)
-//    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
+    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
     probe.expectMessage(processingPaymentMsg)
   }
 
@@ -140,8 +138,7 @@ class TypedCheckoutTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike w
     probe.expectMessage(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     probe.expectMessage(selectingPaymentMethodMsg)
-    checkoutActor ! SelectPayment(paymentMethod)
-//    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
+    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
     probe.expectMessage(processingPaymentMsg)
     checkoutActor ! CancelCheckout
     probe.expectMessage(cancelledMsg)
@@ -165,8 +162,7 @@ class TypedCheckoutTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike w
 
     checkoutActor ! StartCheckout
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
-    checkoutActor ! SelectPayment(paymentMethod)
-//    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
+    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
     Thread.sleep(2000)
     checkoutActor ! ConfirmPaymentReceived
     probe.expectMessage(cancelledMsg)
@@ -183,8 +179,7 @@ class TypedCheckoutTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike w
     probe.expectMessage(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     probe.expectMessage(selectingPaymentMethodMsg)
-    checkoutActor ! SelectPayment(paymentMethod)
-//    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
+    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
     probe.expectMessage(processingPaymentMsg)
     checkoutActor ! ConfirmPaymentReceived
     probe.expectMessage(closedMsg)
@@ -201,8 +196,7 @@ class TypedCheckoutTest extends ScalaTestWithActorTestKit with AnyFlatSpecLike w
     probe.expectMessage(selectingDeliveryMsg)
     checkoutActor ! SelectDeliveryMethod(deliveryMethod)
     probe.expectMessage(selectingPaymentMethodMsg)
-    checkoutActor ! SelectPayment(paymentMethod)
-//    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
+    checkoutActor ! SelectPayment(paymentMethod, orderManagerProbe.ref)
     probe.expectMessage(processingPaymentMsg)
     checkoutActor ! ConfirmPaymentReceived
     probe.expectMessage(closedMsg)
