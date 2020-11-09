@@ -3,18 +3,13 @@ package EShop.lab2
 import EShop.lab2.Checkout._
 import EShop.lab3.{OrderManager, Payment}
 import akka.actor.{Actor, ActorRef, Cancellable, Props}
-import akka.event.Logging
+import akka.event.{Logging, LoggingReceive}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import scala.language.postfixOps
 
 object Checkout {
-
-  sealed trait Data
-  case object Uninitialized                               extends Data
-  case class SelectingDeliveryStarted(timer: Cancellable) extends Data
-  case class ProcessingPaymentStarted(timer: Cancellable) extends Data
 
   sealed trait Command
   case object StartCheckout                       extends Command
@@ -26,8 +21,11 @@ object Checkout {
   case object ConfirmPaymentReceived              extends Command
 
   sealed trait Event
-  case object CheckOutClosed                   extends Event
-  case class PaymentStarted(payment: ActorRef) extends Event
+  case object CheckOutClosed                        extends Event
+  case class PaymentStarted(payment: ActorRef)      extends Event
+  case object CheckoutStarted                       extends Event
+  case object CheckoutCancelled                     extends Event
+  case class DeliveryMethodSelected(method: String) extends Event
 
   def props(cart: ActorRef) = Props(new Checkout(cart))
 }

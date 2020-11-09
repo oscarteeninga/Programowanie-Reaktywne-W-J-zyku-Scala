@@ -6,6 +6,12 @@ import akka.actor.{Actor, ActorRef, Props}
 import akka.event.{Logging, LoggingReceive}
 
 object OrderManager {
+  sealed trait State
+  case object Uninitialized extends State
+  case object Open          extends State
+  case object InCheckout    extends State
+  case object InPayment     extends State
+  case object Finished      extends State
 
   sealed trait Command
   case class AddItem(id: String)                                               extends Command

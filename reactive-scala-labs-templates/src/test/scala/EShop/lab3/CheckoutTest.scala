@@ -5,6 +5,10 @@ import EShop.lab2.{Cart, CartActor, Checkout}
 import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.testkit.{ImplicitSender, TestKit}
 import org.scalatest.BeforeAndAfterAll
+import EShop.lab2.{CartActor, Checkout}
+import akka.actor.ActorSystem
+import akka.testkit.{ImplicitSender, TestActorRef, TestKit, TestProbe}
+import org.scalatest.BeforeAndAfterAll
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.flatspec.AnyFlatSpecLike
 import org.scalatest.matchers.should.Matchers
