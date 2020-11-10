@@ -19,17 +19,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/lab-4" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2dcab4-d82f-44b1-b82f-3e235cfd094f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab4/PersistentCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab4/PersistentCartActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/EShop/lab4/PersistentCartActorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EShop/lab4/PersistentCartActorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab4/TypedPersistentCartActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab4/TypedPersistentCartActor.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <recent name="EShop.lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.PersistentCartActorTest">
+  <component name="RunManager" selected="ScalaTest.TypedPersistentCartActorTest">
     <configuration name="PersistentCartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
@@ -185,10 +182,10 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypedCheckoutTest.should be in cancelled state after expire checkout timeout in selectingPayment state" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="TypedPersistentCartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Test name" />
+      <option name="testKind" value="Class" />
       <option name="envs">
         <map />
       </option>
@@ -198,8 +195,7 @@
       <option name="shortenClasspath" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testClassPath" value="EShop.lab2.TypedCheckoutTest" />
-      <option name="testName" value="should be in cancelled state after expire checkout timeout in selectingPayment state" />
+      <option name="testClassPath" value="EShop.lab4.TypedPersistentCartActorTest" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -231,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.TypedPersistentCartActorTest" />
         <item itemvalue="ScalaTest.PersistentCartActorTest" />
         <item itemvalue="ScalaTest.PersistentCartActorTest.should change state to inCheckout from nonEmpty" />
         <item itemvalue="ScalaTest.PersistentCartActorTest.should contain one item after adding new item and removing not existing one" />
         <item itemvalue="ScalaTest.PersistentCartActorTest.should be empty after adding new item and removing it after that" />
-        <item itemvalue="ScalaTest.TypedCheckoutTest.should be in cancelled state after expire checkout timeout in selectingPayment state" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +258,7 @@
       <workItem from="1604511716057" duration="1435000" />
       <workItem from="1604934585421" duration="46000" />
       <workItem from="1604949574403" duration="12911000" />
-      <workItem from="1604962827336" duration="1914000" />
+      <workItem from="1604962827336" duration="3813000" />
     </task>
     <task id="LOCAL-00001" summary="complete lab 2">
       <created>1603844738884</created>
@@ -334,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604513145840</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[lab4] persistent cart actor implementation">
+      <created>1604964899094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604964899094</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +354,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/lab-4" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -374,18 +377,19 @@
     <MESSAGE value="hotfix lab 3" />
     <MESSAGE value="hotfix lab 3 v2" />
     <MESSAGE value="wrapping for lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrapping for lab 3" />
+    <MESSAGE value="[lab4] persistent cart actor implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lab4] persistent cart actor implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="205" key="#Project_Structure" timestamp="1604962081896">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="500" y="205" key="#Project_Structure/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962081896" />
-    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604956322891">
+    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604965224797">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603888092238" />
-    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1604956322891" />
+    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1604965224797" />
     <state x="400" y="515" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603927197222">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
@@ -394,11 +398,11 @@
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="1207" y="337" key="#xdebugger.evaluate/0.23.2048.1208@0.23.2048.1208" timestamp="1604960475673" />
-    <state x="187" y="163" key="CommitChangelistDialog2" timestamp="1604513145575">
+    <state x="187" y="163" key="CommitChangelistDialog2" timestamp="1604964898886">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="187" y="163" key="CommitChangelistDialog2/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604513145575" />
-    <state x="187" y="163" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1604491621869" />
+    <state x="187" y="163" key="CommitChangelistDialog2/0.23.2048.1208@0.23.2048.1208" timestamp="1604964898886" />
     <state x="100" y="123" width="1600" height="1008" key="DiffContextDialog" timestamp="1604962451770">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
@@ -408,46 +412,46 @@
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="0" y="23" key="FileDocumentManager.FileCacheConflict/0.23.2048.1208@0.23.2048.1208" timestamp="1603927127268" />
-    <state width="2006" height="426" key="GridCell.Tab.0.bottom" timestamp="1604964559428">
+    <state width="1226" height="322" key="GridCell.Tab.0.bottom" timestamp="1604966629594">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.bottom/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623268" />
-    <state width="2006" height="426" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559428" />
-    <state width="2006" height="426" key="GridCell.Tab.0.center" timestamp="1604964559427">
+    <state width="1226" height="322" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1604966629594" />
+    <state width="1226" height="322" key="GridCell.Tab.0.center" timestamp="1604966629593">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.center/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623267" />
-    <state width="2006" height="426" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559427" />
-    <state width="2006" height="426" key="GridCell.Tab.0.left" timestamp="1604964559427">
+    <state width="1226" height="322" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1604966629593" />
+    <state width="1226" height="322" key="GridCell.Tab.0.left" timestamp="1604966629593">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.left/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623266" />
-    <state width="2006" height="426" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559427" />
-    <state width="2006" height="426" key="GridCell.Tab.0.right" timestamp="1604964559428">
+    <state width="1226" height="322" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1604966629593" />
+    <state width="1226" height="322" key="GridCell.Tab.0.right" timestamp="1604966629593">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.right/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623268" />
-    <state width="2006" height="426" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559428" />
-    <state width="2006" height="426" key="GridCell.Tab.1.bottom" timestamp="1604964559230">
+    <state width="1226" height="322" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1604966629593" />
+    <state width="2006" height="426" key="GridCell.Tab.1.bottom" timestamp="1604964827179">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.bottom/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623269" />
-    <state width="2006" height="426" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559230" />
-    <state width="2006" height="426" key="GridCell.Tab.1.center" timestamp="1604964559230">
+    <state width="2006" height="426" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1604964827179" />
+    <state width="2006" height="426" key="GridCell.Tab.1.center" timestamp="1604964827178">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.center/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623269" />
-    <state width="2006" height="426" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559230" />
-    <state width="2006" height="426" key="GridCell.Tab.1.left" timestamp="1604964559230">
+    <state width="2006" height="426" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1604964827178" />
+    <state width="2006" height="426" key="GridCell.Tab.1.left" timestamp="1604964827178">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.left/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623268" />
-    <state width="2006" height="426" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559230" />
-    <state width="2006" height="426" key="GridCell.Tab.1.right" timestamp="1604964559230">
+    <state width="2006" height="426" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1604964827178" />
+    <state width="2006" height="426" key="GridCell.Tab.1.right" timestamp="1604964827178">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.right/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623269" />
-    <state width="2006" height="426" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1604964559230" />
+    <state width="2006" height="426" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1604964827178" />
     <state x="81" y="133" key="MergeDialog" timestamp="1604950749924">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
@@ -465,6 +469,10 @@
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="328" y="331" key="VCS.ChangeListViewerDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1603846006918" />
+    <state x="1199" y="23" width="848" height="821" key="dock-window-1" timestamp="1604965879561">
+      <screen x="0" y="23" width="2048" height="1208" />
+    </state>
+    <state x="1199" y="23" width="848" height="821" key="dock-window-1/0.23.2048.1208@0.23.2048.1208" timestamp="1604965879561" />
     <state x="725" y="382" width="598" height="490" key="find.popup" timestamp="1604961648679">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
