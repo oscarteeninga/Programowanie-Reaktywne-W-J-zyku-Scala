@@ -1,7 +1,6 @@
 package EShop.lab4
 
 import EShop.lab2.{Cart, TypedCheckout}
-import EShop.lab3.TypedOrderManager
 import akka.actor.Cancellable
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.{ActorContext, Behaviors}
@@ -19,7 +18,6 @@ class TypedPersistentCartActor {
   private def scheduleTimer(context: ActorContext[Command]): Cancellable =
     context.scheduleOnce(cartTimerDuration, context.self, ExpireCart)
 
-
   def apply(persistenceId: PersistenceId): Behavior[Command] = Behaviors.setup { context =>
     EventSourcedBehavior[Command, Event, State](
       persistenceId,
@@ -34,7 +32,7 @@ class TypedPersistentCartActor {
       case Empty =>
         command match {
           case AddItem(item) => Effect.persist(ItemAdded(item))
-          case _ => Effect.none
+          case _             => Effect.none
         }
       case NonEmpty(cart, timer) =>
         command match {
@@ -45,13 +43,13 @@ class TypedPersistentCartActor {
             else Effect.none
           case StartCheckout(_) =>
             Effect.persist(CheckoutStarted(context.spawn(new TypedCheckout(context.self).start, "checkout")))
-          case ExpireCart =>  Effect.persist(CartExpired)
+          case ExpireCart => Effect.persist(CartExpired)
         }
       case InCheckout(_) =>
         command match {
           case ConfirmCheckoutCancelled => Effect.persist(CheckoutCancelled)
-          case ConfirmCheckoutClosed => Effect.persist(CheckoutClosed)
-          case _ => Effect.none
+          case ConfirmCheckoutClosed    => Effect.persist(CheckoutClosed)
+          case _                        => Effect.none
         }
     }
   }
@@ -59,7 +57,7 @@ class TypedPersistentCartActor {
   def eventHandler(context: ActorContext[Command]): (State, Event) => State = (state, event) => {
     event match {
       case CheckoutStarted(_)        => InCheckout(state.cart)
-      case ItemAdded(item)           => NonEmpty(state.cart.addItem(item), scheduleTimer(context))
+      case ItemAdded(item)           => NonEmpty(state.cart.addItem(item), state.timerOpt.getOrElse(scheduleTimer(context)))
       case ItemRemoved(item)         => NonEmpty(state.cart.removeItem(item), state.timerOpt.get)
       case CartEmptied | CartExpired => Empty
       case CheckoutClosed            => Empty

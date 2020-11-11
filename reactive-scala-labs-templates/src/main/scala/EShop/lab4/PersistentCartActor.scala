@@ -65,10 +65,7 @@ class PersistentCartActor(
 
   def empty: Receive = {
     case AddItem(item) =>
-      persist(ItemAdded(item, Cart.empty)) {
-        evt =>
-          updateState(evt)
-      }
+      persist(ItemAdded(item, Cart.empty)) { updateState(_) }
     case GetItems =>
       sender ! Seq.empty
       context become empty
@@ -76,23 +73,23 @@ class PersistentCartActor(
 
   def nonEmpty(cart: Cart, timer: Cancellable): Receive = {
     case ExpireCart =>
-      persist(CartExpired) { evt => updateState(evt) }
+      persist(CartExpired) { updateState(_) }
     case AddItem(item) =>
-      persist(ItemAdded(item, cart)) { evt => updateState(evt, Some(timer)) }
+      persist(ItemAdded(item, cart)) { updateState(_, Some(timer)) }
     case RemoveItem(item) if cart.contains(item) =>
-      persist(CartEmptied) { evt => updateState(evt, Some(timer)) }
+      persist(CartEmptied) { updateState(_, Some(timer)) }
     case GetItems =>
       sender ! cart.items
       context become nonEmpty(cart, timer)
     case StartCheckout =>
-      persist(CheckoutStarted(checkout, cart)) { evt => updateState(evt, Some(timer)) }
+      persist(CheckoutStarted(checkout, cart)) { updateState(_, Some(timer)) }
   }
 
   def inCheckout(cart: Cart): Receive = {
     case ConfirmCheckoutCancelled =>
-      persist(CheckoutCancelled(cart)) { evt => updateState(evt) }
+      persist(CheckoutCancelled(cart)) { updateState(_) }
     case ConfirmCheckoutClosed =>
-      persist(CheckoutClosed) { evt => updateState(evt) }
+      persist(CheckoutClosed) { updateState(_) }
     case GetItems =>
       sender ! cart.items
       context become inCheckout(cart)

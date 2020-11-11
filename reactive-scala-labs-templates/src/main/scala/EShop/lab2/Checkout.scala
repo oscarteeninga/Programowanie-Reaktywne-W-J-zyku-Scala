@@ -42,24 +42,17 @@ class Checkout(
 
   def receive: Receive = {
     case StartCheckout =>
-      log.debug("[Init -> SelectingDelivery] Checkout started")
       context become selectingDelivery(scheduler.scheduleOnce(checkoutTimerDuration, self, ExpireCheckout))
-    case msg: Any =>
-      log.warning("[Init] Unexpected message " + msg)
   }
 
   def selectingDelivery(timer: Cancellable): Receive = {
     case SelectDeliveryMethod(method) =>
-      log.debug("[SelectDelivery -> SelectPayment] Delivery selected " + method)
       context become selectingPaymentMethod(timer)
     case CancelCheckout =>
       timer.cancel()
-      log.debug("[SelectDelivery -> Cancelled] Checkout cancelled")
       context become cancelled
     case ExpireCheckout =>
-      log.debug("[SelectDelivery -> Cancelled] Checkout timeout")
       context become cancelled
-    case msg: Any => log.warning("[SelectDelivery] Unexpected message " + msg)
   }
 
   def selectingPaymentMethod(timer: Cancellable): Receive = {
@@ -67,45 +60,35 @@ class Checkout(
       timer.cancel()
       val paymentActor = context.actorOf(Payment.props(payment, sender, self))
       sender ! OrderManager.ConfirmPaymentStarted(paymentActor)
-      log.debug("[SelectPayment -> ProcessingPayment] Payment selected" + payment)
       context become processingPayment(scheduler.scheduleOnce(paymentTimerDuration, self, ExpirePayment))
     case CancelCheckout =>
       timer.cancel()
       cartActor ! CartActor.ConfirmCheckoutCancelled
-      log.debug("[SelectPayment -> Cancelled] Checkout cancelled")
       context become cancelled
     case ExpireCheckout =>
       cartActor ! CartActor.ConfirmCheckoutCancelled
-      log.debug("[SelectPayment -> Cancelled] Checkout timeout")
       context become cancelled
-    case msg: Any => log.warning("[SelectPayment] Unexpected message " + msg)
   }
 
   def processingPayment(timer: Cancellable): Receive = {
     case ConfirmPaymentReceived =>
       timer.cancel()
-      log.debug("[ProcessingPayment -> Closed] Payment confirmed")
       cartActor ! CartActor.ConfirmCheckoutClosed
       context become closed
     case CancelCheckout =>
       timer.cancel()
-      log.debug("[ProcessingPayment -> Cancelled] Payment cancelled")
       cartActor ! CartActor.ConfirmCheckoutCancelled
       context become cancelled
     case ExpirePayment =>
-      log.debug("[ProcessingPayment -> Cancelled] Payment timeout")
       cartActor ! CartActor.ConfirmCheckoutCancelled
       context become cancelled
-    case msg: Any => log.warning("[ProcessingPayment] Unexpected message " + msg)
   }
 
   def cancelled: Receive = _ => {
-    log.debug("[Cancelled] Checkout cancelled")
-    context.stop(self)
+    context stop self
   }
 
   def closed: Receive = _ => {
-    log.debug("[Closed] Checkout completed")
-    context.stop(self)
+    context stop self
   }
 }
