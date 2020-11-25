@@ -90,8 +90,12 @@ class OrderManager extends Actor {
 
   }
 
-  def finished: Receive = _ => {
-    sender ! "order manager finished job"
-    log.debug("[inPayment] Order manager finished job")
+  def finished: Receive = new PartialFunction[Any, Unit] {
+    override def isDefinedAt(x: Any): Boolean = true
+
+    override def apply(v1: Any): Unit = {
+      sender ! "order manager finished job"
+      log.debug("[inPayment] Order manager finished job")
+    }
   }
 }

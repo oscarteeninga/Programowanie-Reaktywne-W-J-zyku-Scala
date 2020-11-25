@@ -23,12 +23,15 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:lab3-extra" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b2dcab4-d82f-44b1-b82f-3e235cfd094f" name="Default Changelist" comment="" />
+    <list default="true" id="7b2dcab4-d82f-44b1-b82f-3e235cfd094f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab5/Payment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab5/Payment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/EShop/lab5/PaymentService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EShop/lab5/PaymentService.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,40 +88,67 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="ScalaSmartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="EShop.lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.OrderManagerIntegrationTest.should supervise whole order process">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="ScalaTest.PaymentServiceTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderManagerIntegrationTest.should supervise whole order process" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="PaymentServiceTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
         <set />
       </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="EShop.lab3.OrderManagerIntegrationTest" />
-      <option name="testName" value="should supervise whole order process" />
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="EShop.lab5.PaymentServiceTest" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersistentCheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="PaymentTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="EShop.lab5.PaymentTest" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistentCartActorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="EShop" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="EShop.lab4.PersistentCartActorTest" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistentCheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -131,42 +161,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersistentCheckoutTest.should be in selectingDelivery state after checkout start" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="EShop.lab4.PersistentCheckoutTest" />
-      <option name="testName" value="should be in selectingDelivery state after checkout start" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypedPersistentCheckoutTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="SearchServiceTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="EShop" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
         <set />
       </option>
       <option name="testKind" value="Class" />
-      <option name="testClassPath" value="EShop.lab4.TypedPersistentCheckoutTest" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypedPersistentCheckoutTest.should be in cancelled state after expire checkout timeout in selectingDelivery state" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="EShop" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <set />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="EShop.lab4.TypedPersistentCheckoutTest" />
-      <option name="testName" value="should be in cancelled state after expire checkout timeout in selectingDelivery state" />
+      <option name="testClassPath" value="EShop.lab5.SearchServiceTest" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,7 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.OrderManagerIntegrationTest.should supervise whole order process" />
+        <item itemvalue="ScalaTest.PaymentTest" />
+        <item itemvalue="ScalaTest.PaymentServiceTest" />
+        <item itemvalue="ScalaTest.PersistentCartActorTest" />
+        <item itemvalue="ScalaTest.PersistentCheckoutTest" />
+        <item itemvalue="ScalaTest.SearchServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +222,11 @@
       <workItem from="1605317396222" duration="23000" />
       <workItem from="1605317465166" duration="1040000" />
       <workItem from="1605697483488" duration="1024000" />
+      <workItem from="1605976777028" duration="537000" />
+      <workItem from="1606008677532" duration="1614000" />
+      <workItem from="1606084506035" duration="27000" />
+      <workItem from="1606084709227" duration="2989000" />
+      <workItem from="1606292141342" duration="5817000" />
     </task>
     <task id="LOCAL-00001" summary="complete lab 2">
       <created>1603844738884</created>
@@ -315,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605114370954</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/lab-5'&#10;&#10;# Conflicts:&#10;#&#9;build.sbt&#10;#&#9;src/main/resources/application.conf&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/main/scala/EShop/lab3/OrderManager.scala&#10;#&#9;src/main/scala/EShop/lab4/TypedPersistentCartActor.scala&#10;#&#9;src/main/scala/EShop/lab4/TypedPersistentCheckout.scala&#10;#&#9;src/test/scala/EShop/lab4/PersistentCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab4/PersistentCheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab4/TypedPersistentCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab4/TypedPersistentCheckoutTest.scala">
+      <created>1606010392300</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606010392300</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +350,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lab3-extra" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -359,18 +377,26 @@
     <MESSAGE value="[lab4] persistent typed cart actor implementation" />
     <MESSAGE value="[lab4] timers hotfix" />
     <MESSAGE value="[lab4] checkout implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lab4] checkout implementation" />
+    <MESSAGE value="Merge with lab-5" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/lab-5'&#10;&#10;# Conflicts:&#10;#&#9;build.sbt&#10;#&#9;src/main/resources/application.conf&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/main/scala/EShop/lab3/OrderManager.scala&#10;#&#9;src/main/scala/EShop/lab4/TypedPersistentCartActor.scala&#10;#&#9;src/main/scala/EShop/lab4/TypedPersistentCheckout.scala&#10;#&#9;src/test/scala/EShop/lab4/PersistentCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab4/PersistentCheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab4/TypedPersistentCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab4/TypedPersistentCheckoutTest.scala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/lab-5'&#10;&#10;# Conflicts:&#10;#&#9;build.sbt&#10;#&#9;src/main/resources/application.conf&#10;#&#9;src/main/scala/EShop/lab2/Checkout.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCartActor.scala&#10;#&#9;src/main/scala/EShop/lab2/TypedCheckout.scala&#10;#&#9;src/main/scala/EShop/lab3/OrderManager.scala&#10;#&#9;src/main/scala/EShop/lab4/TypedPersistentCartActor.scala&#10;#&#9;src/main/scala/EShop/lab4/TypedPersistentCheckout.scala&#10;#&#9;src/test/scala/EShop/lab4/PersistentCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab4/PersistentCheckoutTest.scala&#10;#&#9;src/test/scala/EShop/lab4/TypedPersistentCartActorTest.scala&#10;#&#9;src/test/scala/EShop/lab4/TypedPersistentCheckoutTest.scala" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="205" key="#Project_Structure" timestamp="1604962081896">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="500" y="205" key="#Project_Structure/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962081896" />
-    <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605111052360">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state x="937" y="524" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606302998956">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1603888092238" />
     <state x="638" y="400" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1605111052360" />
+    <state x="638" y="395" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.2048.1185@0.25.2048.1185" timestamp="1606086914566" />
+    <state x="937" y="524" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.3008.1597@0.25.3008.1597" timestamp="1606302998956" />
+    <state x="837" y="315" key="#com.intellij.ide.util.MemberChooser" timestamp="1606086926767">
+      <screen x="0" y="25" width="2048" height="1185" />
+    </state>
+    <state x="837" y="315" key="#com.intellij.ide.util.MemberChooser/0.25.2048.1185@0.25.2048.1185" timestamp="1606086926767" />
     <state x="400" y="515" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603927197222">
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
@@ -394,66 +420,100 @@
       <screen x="0" y="23" width="2048" height="1208" />
     </state>
     <state x="0" y="23" key="FileDocumentManager.FileCacheConflict/0.23.2048.1208@0.23.2048.1208" timestamp="1603927127268" />
-    <state width="2006" height="332" key="GridCell.Tab.0.bottom" timestamp="1605698509135">
-      <screen x="0" y="25" width="2048" height="1191" />
+    <state width="1857" height="365" key="GridCell.Tab.0.bottom" timestamp="1606303745024">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.bottom/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623268" />
+    <state width="1706" height="598" key="GridCell.Tab.0.bottom/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259491" />
     <state width="1226" height="322" key="GridCell.Tab.0.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1605115800887" />
+    <state width="1640" height="133" key="GridCell.Tab.0.bottom/0.25.1920.985@0.25.1920.985" timestamp="1606301550224" />
+    <state width="1217" height="330" key="GridCell.Tab.0.bottom/0.25.2048.1185@0.25.2048.1185" timestamp="1606087703340" />
     <state width="2006" height="332" key="GridCell.Tab.0.bottom/0.25.2048.1191@0.25.2048.1191" timestamp="1605698509135" />
-    <state width="2006" height="332" key="GridCell.Tab.0.center" timestamp="1605698509135">
-      <screen x="0" y="25" width="2048" height="1191" />
+    <state width="1857" height="365" key="GridCell.Tab.0.bottom/0.25.3008.1597@0.25.3008.1597" timestamp="1606303745024" />
+    <state width="1857" height="365" key="GridCell.Tab.0.center" timestamp="1606303745024">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.center/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623267" />
+    <state width="1706" height="598" key="GridCell.Tab.0.center/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259490" />
     <state width="1226" height="322" key="GridCell.Tab.0.center/0.23.2048.1208@0.23.2048.1208" timestamp="1605115800886" />
+    <state width="1640" height="133" key="GridCell.Tab.0.center/0.25.1920.985@0.25.1920.985" timestamp="1606301550224" />
+    <state width="1217" height="330" key="GridCell.Tab.0.center/0.25.2048.1185@0.25.2048.1185" timestamp="1606087703340" />
     <state width="2006" height="332" key="GridCell.Tab.0.center/0.25.2048.1191@0.25.2048.1191" timestamp="1605698509135" />
-    <state width="2006" height="332" key="GridCell.Tab.0.left" timestamp="1605698509134">
-      <screen x="0" y="25" width="2048" height="1191" />
+    <state width="1857" height="365" key="GridCell.Tab.0.center/0.25.3008.1597@0.25.3008.1597" timestamp="1606303745024" />
+    <state width="1857" height="365" key="GridCell.Tab.0.left" timestamp="1606303745023">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.left/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623266" />
+    <state width="1706" height="598" key="GridCell.Tab.0.left/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259490" />
     <state width="1226" height="322" key="GridCell.Tab.0.left/0.23.2048.1208@0.23.2048.1208" timestamp="1605115800886" />
+    <state width="1640" height="133" key="GridCell.Tab.0.left/0.25.1920.985@0.25.1920.985" timestamp="1606301550224" />
+    <state width="1217" height="330" key="GridCell.Tab.0.left/0.25.2048.1185@0.25.2048.1185" timestamp="1606087703339" />
     <state width="2006" height="332" key="GridCell.Tab.0.left/0.25.2048.1191@0.25.2048.1191" timestamp="1605698509134" />
-    <state width="2006" height="332" key="GridCell.Tab.0.right" timestamp="1605698509135">
-      <screen x="0" y="25" width="2048" height="1191" />
+    <state width="1857" height="365" key="GridCell.Tab.0.left/0.25.3008.1597@0.25.3008.1597" timestamp="1606303745023" />
+    <state width="1857" height="365" key="GridCell.Tab.0.right" timestamp="1606303745024">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.0.right/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623268" />
+    <state width="1706" height="598" key="GridCell.Tab.0.right/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259491" />
     <state width="1226" height="322" key="GridCell.Tab.0.right/0.23.2048.1208@0.23.2048.1208" timestamp="1605115800886" />
+    <state width="1640" height="133" key="GridCell.Tab.0.right/0.25.1920.985@0.25.1920.985" timestamp="1606301550224" />
+    <state width="1217" height="330" key="GridCell.Tab.0.right/0.25.2048.1185@0.25.2048.1185" timestamp="1606087703340" />
     <state width="2006" height="332" key="GridCell.Tab.0.right/0.25.2048.1191@0.25.2048.1191" timestamp="1605698509135" />
-    <state width="1226" height="426" key="GridCell.Tab.1.bottom" timestamp="1605114411886">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state width="1857" height="365" key="GridCell.Tab.0.right/0.25.3008.1597@0.25.3008.1597" timestamp="1606303745024" />
+    <state width="1857" height="365" key="GridCell.Tab.1.bottom" timestamp="1606303744919">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.bottom/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623269" />
+    <state width="1706" height="598" key="GridCell.Tab.1.bottom/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259390" />
     <state width="1226" height="426" key="GridCell.Tab.1.bottom/0.23.2048.1208@0.23.2048.1208" timestamp="1605114411886" />
-    <state width="1226" height="426" key="GridCell.Tab.1.center" timestamp="1605114411885">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state width="1217" height="406" key="GridCell.Tab.1.bottom/0.25.2048.1185@0.25.2048.1185" timestamp="1606087701298" />
+    <state width="1857" height="365" key="GridCell.Tab.1.bottom/0.25.3008.1597@0.25.3008.1597" timestamp="1606303744919" />
+    <state width="1857" height="365" key="GridCell.Tab.1.center" timestamp="1606303744919">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.center/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623269" />
+    <state width="1706" height="598" key="GridCell.Tab.1.center/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259389" />
     <state width="1226" height="426" key="GridCell.Tab.1.center/0.23.2048.1208@0.23.2048.1208" timestamp="1605114411885" />
-    <state width="1226" height="426" key="GridCell.Tab.1.left" timestamp="1605114411885">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state width="1217" height="406" key="GridCell.Tab.1.center/0.25.2048.1185@0.25.2048.1185" timestamp="1606087701297" />
+    <state width="1857" height="365" key="GridCell.Tab.1.center/0.25.3008.1597@0.25.3008.1597" timestamp="1606303744919" />
+    <state width="1857" height="365" key="GridCell.Tab.1.left" timestamp="1606303744919">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.left/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623268" />
+    <state width="1706" height="598" key="GridCell.Tab.1.left/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259388" />
     <state width="1226" height="426" key="GridCell.Tab.1.left/0.23.2048.1208@0.23.2048.1208" timestamp="1605114411885" />
-    <state width="1226" height="426" key="GridCell.Tab.1.right" timestamp="1605114411885">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state width="1217" height="406" key="GridCell.Tab.1.left/0.25.2048.1185@0.25.2048.1185" timestamp="1606087701297" />
+    <state width="1857" height="365" key="GridCell.Tab.1.left/0.25.3008.1597@0.25.3008.1597" timestamp="1606303744919" />
+    <state width="1857" height="365" key="GridCell.Tab.1.right" timestamp="1606303744919">
+      <screen x="0" y="25" width="3008" height="1597" />
     </state>
     <state width="2006" height="426" key="GridCell.Tab.1.right/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962623269" />
+    <state width="1706" height="598" key="GridCell.Tab.1.right/-3008.-152.3008.1667/0.25.2048.1185@-3008.-152.3008.1667" timestamp="1606300259389" />
     <state width="1226" height="426" key="GridCell.Tab.1.right/0.23.2048.1208@0.23.2048.1208" timestamp="1605114411885" />
-    <state x="81" y="133" key="MergeDialog" timestamp="1604950749924">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state width="1217" height="406" key="GridCell.Tab.1.right/0.25.2048.1185@0.25.2048.1185" timestamp="1606087701297" />
+    <state width="1857" height="365" key="GridCell.Tab.1.right/0.25.3008.1597@0.25.3008.1597" timestamp="1606303744919" />
+    <state x="81" y="132" key="MergeDialog" timestamp="1606009532237">
+      <screen x="0" y="25" width="2048" height="1185" />
     </state>
     <state x="81" y="133" key="MergeDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1604950749924" />
-    <state x="538" y="395" key="MultipleFileMergeDialog" timestamp="1604950749968">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state x="81" y="132" key="MergeDialog/0.25.2048.1185@0.25.2048.1185" timestamp="1606009532237" />
+    <state x="81" y="133" key="MergeDialog/0.25.2048.1191@0.25.2048.1191" timestamp="1605977032648" />
+    <state x="538" y="390" key="MultipleFileMergeDialog" timestamp="1606009541787">
+      <screen x="0" y="25" width="2048" height="1185" />
     </state>
     <state x="538" y="395" key="MultipleFileMergeDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1604950749968" />
-    <state x="352" y="336" key="RollbackChangesDialog" timestamp="1604966668985">
-      <screen x="0" y="23" width="2048" height="1208" />
+    <state x="538" y="390" key="MultipleFileMergeDialog/0.25.2048.1185@0.25.2048.1185" timestamp="1606009541787" />
+    <state x="538" y="392" key="MultipleFileMergeDialog/0.25.2048.1191@0.25.2048.1191" timestamp="1605977037440" />
+    <state x="352" y="334" key="RollbackChangesDialog" timestamp="1605977044458">
+      <screen x="0" y="25" width="2048" height="1191" />
     </state>
     <state x="352" y="336" key="RollbackChangesDialog/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604962456881" />
     <state x="352" y="336" key="RollbackChangesDialog/0.23.2048.1208@0.23.2048.1208" timestamp="1604966668985" />
-    <state x="533" y="256" key="SettingsEditor" timestamp="1605278102269">
-      <screen x="0" y="25" width="2048" height="1191" />
+    <state x="352" y="334" key="RollbackChangesDialog/0.25.2048.1191@0.25.2048.1191" timestamp="1605977044458" />
+    <state x="533" y="255" key="SettingsEditor" timestamp="1606085549304">
+      <screen x="0" y="25" width="2048" height="1185" />
     </state>
+    <state x="533" y="255" key="SettingsEditor/0.25.2048.1185@0.25.2048.1185" timestamp="1606085549304" />
     <state x="533" y="256" key="SettingsEditor/0.25.2048.1191@0.25.2048.1191" timestamp="1605278102269" />
     <state x="328" y="331" key="VCS.ChangeListViewerDialog" timestamp="1603846006918">
       <screen x="0" y="23" width="2048" height="1208" />
@@ -468,5 +528,9 @@
     </state>
     <state x="725" y="382" width="598" height="490" key="find.popup/-1194.23.1194.811/0.23.2048.1208@0.23.2048.1208" timestamp="1604961648679" />
     <state x="725" y="382" width="598" height="490" key="find.popup/0.23.2048.1208@0.23.2048.1208" timestamp="1604959704810" />
+    <state x="430" y="237" key="new project wizard" timestamp="1606084975270">
+      <screen x="0" y="25" width="2048" height="1185" />
+    </state>
+    <state x="430" y="237" key="new project wizard/0.25.2048.1185@0.25.2048.1185" timestamp="1606084975270" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package EShop.lab4
 
-import EShop.lab2.{Cart, TypedCheckout}
+import EShop.lab2.TypedCheckout
 import akka.actor.Cancellable
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.{ActorContext, Behaviors}

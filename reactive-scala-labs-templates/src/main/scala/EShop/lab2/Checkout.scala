@@ -84,11 +84,12 @@ class Checkout(
       context become cancelled
   }
 
-  def cancelled: Receive = _ => {
-    context stop self
+  def cancelled: Receive = new PartialFunction[Any, Unit] {
+    override def isDefinedAt(x: Any): Boolean = true
+
+    override def apply(v1: Any): Unit = context stop self
   }
 
-  def closed: Receive = _ => {
-    context stop self
-  }
+  def closed: Receive = cancelled
+
 }

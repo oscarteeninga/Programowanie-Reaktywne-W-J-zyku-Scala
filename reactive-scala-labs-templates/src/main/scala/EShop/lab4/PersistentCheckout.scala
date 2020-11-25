@@ -73,14 +73,22 @@ class PersistentCheckout(
       persist(CheckoutCancelled) { updateState(_) }
   }
 
-  def cancelled: Receive = _ => {
-    cartActor ! CartActor.ConfirmCheckoutCancelled
-    context stop self
+  def cancelled: Receive = new PartialFunction[Any, Unit] {
+    override def isDefinedAt(x: Any): Boolean = true
+
+    override def apply(v1: Any): Unit = {
+      cartActor ! CartActor.ConfirmCheckoutCancelled
+      context stop self
+    }
   }
 
-  def closed: Receive = _ => {
-    cartActor ! CartActor.ConfirmCheckoutClosed
-    context stop self
+  def closed: Receive = new PartialFunction[Any, Unit] {
+    override def isDefinedAt(x: Any): Boolean = true
+
+    override def apply(v1: Any): Unit = {
+      cartActor ! CartActor.ConfirmCheckoutClosed
+      context stop self
+    }
   }
 
   override def receiveRecover: Receive = {
