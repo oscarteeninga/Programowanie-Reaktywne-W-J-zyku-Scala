@@ -1,13 +1,12 @@
 package EShop.lab5
 
+import EShop.lab5.Payment.PaymentRestarted
 import EShop.lab5.PaymentService.{PaymentClientError, PaymentServerError, PaymentSucceeded}
+import akka.actor.Status.Failure
 import akka.actor.{Actor, ActorLogging, ActorRef, Props, Terminated}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.{HttpRequest, HttpResponse, StatusCodes}
 import akka.stream.{ActorMaterializer, ActorMaterializerSettings}
-
-import scala.concurrent.{Await, Future}
-import scala.concurrent.duration.{Duration, DurationInt}
 
 object PaymentService {
 
@@ -32,18 +31,18 @@ class PaymentService(method: String, payment: ActorRef) extends Actor with Actor
   override def preStart(): Unit =
     http.singleRequest(HttpRequest(uri = URI)).pipeTo(self)
 
-  override def receive: Receive = {
-    case resp @ HttpResponse(StatusCodes.OK, _, _, _) =>
-      payment ! PaymentSucceeded
-    case resp @ HttpResponse(StatusCodes.RequestTimeout, _, _, _) =>
-      throw new PaymentServerError
-    case resp @ HttpResponse(StatusCodes.NotFound, _, _, _) =>
-      throw new PaymentClientError
-  }
+  override def preRestart(reason: Throwable, message: Option[Any]): Unit = payment ! PaymentRestarted
 
-  def shutdown(): Future[Terminated] = {
-    Await.result(http.shutdownAllConnectionPools(),Duration.Inf)
-    context.system.terminate()
+  override def receive: Receive = {
+    case HttpResponse(StatusCodes.OK, _, _, _) =>
+      payment ! PaymentSucceeded
+    case HttpResponse(StatusCodes.RequestTimeout, _, _, _) =>
+      throw new PaymentServerError()
+    case HttpResponse(error: StatusCodes.ClientError, _, _, _) =>
+      throw new PaymentClientError()
+    case HttpResponse(error: StatusCodes.ServerError, _, _, _) =>
+      throw new PaymentServerError()
+
   }
 
   private def getURI: String = method match {
