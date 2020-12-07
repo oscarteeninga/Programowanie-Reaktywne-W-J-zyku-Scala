@@ -6,7 +6,6 @@ import akka.actor.{ActorRef, Cancellable, Props}
 import akka.event.{Logging, LoggingReceive}
 import akka.persistence.PersistentActor
 
-import scala.util.Random
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 

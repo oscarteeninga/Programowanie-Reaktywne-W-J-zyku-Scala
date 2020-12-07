@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/oscarteeninga/Documents/Studia/Programowanie-Reaktywne-W-Jezyku-Scala/reactive-scala-labs-templates/project/"), "reactive-scala-labs-templates-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/oscarteeninga/Documents/Studia/Programowanie-Reaktywne-W-Jezyku-Scala/reactive-scala-labs-templates/project/"), "reactive-scala-labs-templates-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

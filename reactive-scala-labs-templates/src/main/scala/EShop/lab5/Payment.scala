@@ -3,7 +3,7 @@ package EShop.lab5
 import EShop.lab3.Payment.{DoPayment, PaymentConfirmed}
 import EShop.lab5.Payment.{PaymentRejected, PaymentRestarted}
 import EShop.lab5.PaymentService.{PaymentClientError, PaymentServerError, PaymentSucceeded}
-import akka.actor.SupervisorStrategy.{Restart, Resume, Stop, restart}
+import akka.actor.SupervisorStrategy.{restart, Restart, Resume, Stop}
 import akka.actor.{Actor, ActorLogging, ActorRef, OneForOneStrategy, Props}
 import akka.event.LoggingReceive
 import akka.stream.StreamTcpException
